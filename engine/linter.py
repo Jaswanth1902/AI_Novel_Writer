@@ -64,13 +64,14 @@ DEFAULT_ANACHRONISMS = [
 ]
 
 FILTER_VERB_PATTERNS = [
-    r"\b(he|she|they|i)\s+felt\b",
-    r"\b(he|she|they|i)\s+noticed\b",
-    r"\b(he|she|they|i)\s+wondered\b",
-    r"\b(he|she|they|i)\s+realized\b",
-    r"\b(he|she|they|i)\s+decided\b",
-    r"\b(he|she|they|i)\s+heard\s+that\b",
-    r"\b(he|she|they|i)\s+saw\s+that\b",
+    r"\b(he|she|they|i|we)\s+felt\b",
+    r"\b(he|she|they|i|we)\s+noticed\b",
+    r"\b(he|she|they|i|we)\s+wondered\b",
+    r"\b(he|she|they|i|we)\s+realized\b",
+    r"\b(he|she|they|i|we)\s+decided\b",
+    r"\b(he|she|they|i|we)\s+heard\s+that\b",
+    r"\b(he|she|they|i|we)\s+saw\s+that\b",
+    r"\b(jaswanth|chaitanya|bennett|anirudh)\s+(felt|noticed|wondered|realized)\b",
     r"\bfelt\s+like\b",
     r"\bnoticed\s+that\b",
     r"\bseemed\s+to\s+be\b",

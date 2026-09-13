@@ -1,0 +1,3353 @@
+[
+  {
+    "id": "brandon-sanderson",
+    "name": "Brandon Sanderson",
+    "genres": [
+      "Epic Fantasy",
+      "Progression Fantasy",
+      "High Fantasy"
+    ],
+    "vibes": [
+      "high_wonder",
+      "cerebral",
+      "optimistic",
+      "architectural"
+    ],
+    "tech_eras": [
+      "medieval",
+      "industrial_atla",
+      "victorian_gaslamp",
+      "far_future"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Mistborn: The Final Empire",
+      "The Way of Kings",
+      "Words of Radiance"
+    ],
+    "signature_techniques": [
+      "Sanderson's Three Laws of Magic (Limitations > Powers)",
+      "Promises-Progress-Payoff narrative pacing",
+      "Rigorous ecosystem and economic extrapolation of magic",
+      "High-velocity Sanderstorm convergence climax"
+    ],
+    "source_repositories": [
+      "https://www.brandonsanderson.com/writing-advice/",
+      "https://coppermind.net/wiki/Cosmere",
+      "https://archive.org/details/brandonsandersonbyulectures"
+    ]
+  },
+  {
+    "id": "george-rr-martin",
+    "name": "George R.R. Martin",
+    "genres": [
+      "Epic Fantasy",
+      "Grimdark",
+      "Political Drama"
+    ],
+    "vibes": [
+      "grimdark_visceral",
+      "cynical",
+      "tactile",
+      "morally_grey"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "A Game of Thrones",
+      "A Clash of Kings",
+      "A Storm of Swords"
+    ],
+    "signature_techniques": [
+      "Logistical attrition (mud, horse flesh, rusted rivets, food rationing)",
+      "Human heart in conflict with itself (internal ethical schisms)",
+      "Multi-POV information asymmetry and dramatic irony",
+      "Uncompromising physical consequences for tactical errors"
+    ],
+    "source_repositories": [
+      "https://georgerrmartin.com/notablog/",
+      "https://archive.org/search.php?query=george+r+r+martin"
+    ]
+  },
+  {
+    "id": "stephen-king",
+    "name": "Stephen King",
+    "genres": [
+      "Horror",
+      "Suspense",
+      "Dark Fantasy"
+    ],
+    "vibes": [
+      "creeping_dread",
+      "visceral",
+      "intimate_domestic",
+      "colloquial"
+    ],
+    "tech_eras": [
+      "modern",
+      "industrial",
+      "victorian"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Shining",
+      "The Stand",
+      "Misery",
+      "On Writing"
+    ],
+    "signature_techniques": [
+      "Adverb decimation in dialogue tags",
+      "Telepathic prose: sensory immediacy over decorative prose",
+      "Slow domestic character immersion prior to visceral horror",
+      "Autonomic somatic tells (sweat, jaw lock, pupil dilation)"
+    ],
+    "source_repositories": [
+      "https://archive.org/details/onwriting00king",
+      "https://stephenking.com/"
+    ]
+  },
+  {
+    "id": "ursula-k-le-guin",
+    "name": "Ursula K. Le Guin",
+    "genres": [
+      "High Fantasy",
+      "Soft Sci-Fi",
+      "Literary Fiction"
+    ],
+    "vibes": [
+      "mythic",
+      "philosophical",
+      "lyrical",
+      "austere"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "medieval",
+      "far_future"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "A Wizard of Earthsea",
+      "The Left Hand of Darkness",
+      "The Dispossessed",
+      "Steering the Craft"
+    ],
+    "signature_techniques": [
+      "Phonetic sentence music and breath-length clause modulation",
+      "Strict point-of-view integrity without head-hopping",
+      "Anthropological worldbuilding and taoist thematic balance",
+      "Naming as ontological magic (true names govern essences)"
+    ],
+    "source_repositories": [
+      "https://www.ursulakleguin.com/",
+      "https://archive.org/details/steeringthecraft00legu"
+    ]
+  },
+  {
+    "id": "cormac-mccarthy",
+    "name": "Cormac McCarthy",
+    "genres": [
+      "Western",
+      "Post-Apocalyptic",
+      "Literary Fiction"
+    ],
+    "vibes": [
+      "bleak",
+      "biblical_weight",
+      "visceral",
+      "elemental"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "industrial",
+      "modern",
+      "post_apocalyptic"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Blood Meridian",
+      "The Road",
+      "No Country for Old Men"
+    ],
+    "signature_techniques": [
+      "Stripped punctuation (zero semicolons, minimal commas)",
+      "Monosyllabic Anglo-Saxon root nouns over Latinate ornamentation",
+      "Landscape as an active indifferent predatory titan",
+      "Externalized psychological action devoid of interior monologue tags"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=cormac+mccarthy",
+      "https://www.cormacmccarthy.com/"
+    ]
+  },
+  {
+    "id": "j-r-r-tolkien",
+    "name": "J.R.R. Tolkien",
+    "genres": [
+      "High Fantasy",
+      "Mythopoeia"
+    ],
+    "vibes": [
+      "high_wonder",
+      "elegiac",
+      "mythic",
+      "archaic"
+    ],
+    "tech_eras": [
+      "medieval",
+      "bronze_age"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Lord of the Rings",
+      "The Hobbit",
+      "The Silmarillion"
+    ],
+    "signature_techniques": [
+      "Philological worldbuilding (languages generate landscapes and myth)",
+      "Elegiac historical depth and sense of deep time",
+      "Moral nobility tested by spiritual corruption",
+      "Cadenced poetic descriptions of geography and ancestry"
+    ],
+    "source_repositories": [
+      "https://www.tolkiensociety.org/",
+      "https://archive.org/search.php?query=j+r+r+tolkien"
+    ]
+  },
+  {
+    "id": "will-wight",
+    "name": "Will Wight",
+    "genres": [
+      "Progression Fantasy",
+      "Cultivation",
+      "Xianxia"
+    ],
+    "vibes": [
+      "escalating_velocity",
+      "tactile_combat",
+      "spartan_growth"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "medieval",
+      "cosmic"
+    ],
+    "magic_hardness": "progression_meridian",
+    "key_works": [
+      "Cradle: Unsouled",
+      "Cradle: Dreadgod",
+      "House of Blades",
+      "The Captain"
+    ],
+    "signature_techniques": [
+      "Clear quantifiable power tiers with strict advancement bottlenecks",
+      "Kinetic, zero-bloat martial choreography",
+      "Underdog training montages anchored by concrete physical costs",
+      "High-stakes escalation without narrative stalling"
+    ],
+    "source_repositories": [
+      "https://www.willwight.com/",
+      "https://www.royalroad.com/"
+    ]
+  },
+  {
+    "id": "joe-abercrombie",
+    "name": "Joe Abercrombie",
+    "genres": [
+      "Grimdark",
+      "Military Fantasy"
+    ],
+    "vibes": [
+      "grimdark_visceral",
+      "cynical_wit",
+      "bloody",
+      "pragmatic"
+    ],
+    "tech_eras": [
+      "medieval",
+      "industrial_atla"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Blade Itself",
+      "The Heroes",
+      "Best Served Cold"
+    ],
+    "signature_techniques": [
+      "Distinct voice-driven third person with cynical character catchphrases",
+      "Subversion of traditional heroic fantasy archetypes",
+      "Visceral, unglamorous depictions of physical pain, mud, and surgery",
+      "Fast-paced combat with chaotic sensory shifts"
+    ],
+    "source_repositories": [
+      "https://joeabercrombie.com/",
+      "https://archive.org/search.php?query=joe+abercrombie"
+    ]
+  },
+  {
+    "id": "william-gibson",
+    "name": "William Gibson",
+    "genres": [
+      "Cyberpunk",
+      "Hard Sci-Fi"
+    ],
+    "vibes": [
+      "syncopated_noir",
+      "techno_cool",
+      "gritty",
+      "sensory_overload"
+    ],
+    "tech_eras": [
+      "cyberpunk",
+      "modern"
+    ],
+    "magic_hardness": "technological_mesh",
+    "key_works": [
+      "Neuromancer",
+      "Count Zero",
+      "Mona Lisa Overdrive"
+    ],
+    "signature_techniques": [
+      "Dense, poetic technological neologisms without exposition dumps",
+      "High-tech low-life aesthetic: neon, chrome, black market clinics",
+      "Sensory blending of organic anatomy with digital machinery",
+      "Elliptical, fast-moving narrative trajectories"
+    ],
+    "source_repositories": [
+      "https://archive.org/details/neuromancer00gibs",
+      "https://williamgibsonbooks.com/"
+    ]
+  },
+  {
+    "id": "frank-herbert",
+    "name": "Frank Herbert",
+    "genres": [
+      "Space Opera",
+      "Political Sci-Fi",
+      "Speculative Fiction"
+    ],
+    "vibes": [
+      "philosophical",
+      "ecological_grandeur",
+      "Machiavellian",
+      "austere"
+    ],
+    "tech_eras": [
+      "far_future"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Dune",
+      "Dune Messiah",
+      "Children of Dune"
+    ],
+    "signature_techniques": [
+      "Ecological and sociopolitical systems as primary plot drivers",
+      "Sub-vocalized thought tags with internal tactical deduction",
+      "Messianic archetype deconstruction (charismatic leaders are dangerous)",
+      "Feudal political intrigue mapped onto galactic resource control"
+    ],
+    "source_repositories": [
+      "https://archive.org/details/dune00herb",
+      "https://dunenovels.com/"
+    ]
+  },
+  {
+    "id": "arthur-conan-doyle",
+    "name": "Arthur Conan Doyle",
+    "genres": [
+      "Mystery",
+      "Detective",
+      "Historical"
+    ],
+    "vibes": [
+      "cerebral",
+      "rationalist",
+      "fog_choked_noir",
+      "methodical"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "A Study in Scarlet",
+      "The Hound of the Baskervilles",
+      "The Sign of the Four"
+    ],
+    "signature_techniques": [
+      "Fair-play deductive observation based on minute physical traces",
+      "Watson-persona framing: grounded companion anchoring an eccentric genius",
+      "Atmospheric Victorian gaslight tension and physical crime-scene autopsy",
+      "Rapid analytical exposition following dramatic physical climax"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/arthur-conan-doyle",
+      "https://www.gutenberg.org/ebooks/author/69"
+    ]
+  },
+  {
+    "id": "agatha-christie",
+    "name": "Agatha Christie",
+    "genres": [
+      "Mystery",
+      "Whodunit",
+      "Psychological Suspense"
+    ],
+    "vibes": [
+      "intellectual_puzzle",
+      "social_satire",
+      "claustrophobic",
+      "crisp"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp",
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "And Then There Were None",
+      "The Murder of Roger Ackroyd",
+      "Murder on the Orient Express"
+    ],
+    "signature_techniques": [
+      "Flawless red-herring placement and psychological misdirection",
+      "Enclosed room/limited cast social dynamics",
+      "Every character holds a secondary shameful secret that obscures the true crime",
+      "Razor-sharp parlor denouement assembling disparate empirical clues"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=agatha+christie",
+      "https://www.gutenberg.org/ebooks/author/451"
+    ]
+  },
+  {
+    "id": "john-le-carre",
+    "name": "John le Carré",
+    "genres": [
+      "Espionage",
+      "Thriller",
+      "Cold War"
+    ],
+    "vibes": [
+      "morally_grey",
+      "bureaucratic_dread",
+      "melancholy",
+      "quiet_suspense"
+    ],
+    "tech_eras": [
+      "modern",
+      "victorian"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Spy Who Came in from the Cold",
+      "Tinker Tailor Soldier Spy",
+      "Smiley's People"
+    ],
+    "signature_techniques": [
+      "Bureaucratic mundane espionage: paper audits, cold rooms, lonely safehouses",
+      "Devastating personal betrayal over Hollywood gunfights",
+      "Subtext-saturated dialogue where every sentence conceals an interrogation",
+      "Cynical institutional critique of intelligence agencies"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=john+le+carre"
+    ]
+  },
+  {
+    "id": "neil-gaiman",
+    "name": "Neil Gaiman",
+    "genres": [
+      "Urban Fantasy",
+      "Dark Fantasy",
+      "Mythic"
+    ],
+    "vibes": [
+      "fable_like",
+      "dream_logic",
+      "darkly_whimsical",
+      "melancholic"
+    ],
+    "tech_eras": [
+      "modern",
+      "victorian",
+      "medieval"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "American Gods",
+      "The Sandman",
+      "Neverwhere",
+      "Ocean at the End of the Lane"
+    ],
+    "signature_techniques": [
+      "Dream-logic boundaries: mythic archetypes walking through modern streets",
+      "Lyrical British understatement contrasting with surreal cosmic horror",
+      "Folkloric repetition and fairy tale cadence",
+      "Focus on the power of stories and forgotten gods"
+    ],
+    "source_repositories": [
+      "https://neilgaiman.com/",
+      "https://archive.org/search.php?query=neil+gaiman"
+    ]
+  },
+  {
+    "id": "haruki-murakami",
+    "name": "Haruki Murakami",
+    "genres": [
+      "Magical Realism",
+      "Literary Fiction",
+      "Surrealism"
+    ],
+    "vibes": [
+      "melancholic_isolation",
+      "dreamlike",
+      "nostalgic",
+      "introspective"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Norwegian Wood",
+      "Kafka on the Shore",
+      "The Wind-Up Bird Chronicle"
+    ],
+    "signature_techniques": [
+      "Banal domestic rituals (cooking pasta, listening to jazz, ironing shirts) grounding surreal events",
+      "Wells, underground passageways, and shadow worlds as psychological thresholds",
+      "First-person laconic, slightly detached protagonist observing bizarre events",
+      "Unresolved metaphysical ambiguity: explanations are never completely wrapped up"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=haruki+murakami"
+    ]
+  },
+  {
+    "id": "isaac-asimov",
+    "name": "Isaac Asimov",
+    "genres": [
+      "Hard Sci-Fi",
+      "Space Opera",
+      "Mystery"
+    ],
+    "vibes": [
+      "cerebral",
+      "rationalist",
+      "sweeping_historical"
+    ],
+    "tech_eras": [
+      "far_future"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Foundation",
+      "Foundation and Empire",
+      "I, Robot"
+    ],
+    "signature_techniques": [
+      "Psychohistory: mathematical macro-sociology determining galactic fate",
+      "Three Laws of Robotics: ethical logic puzzles driving plot complications",
+      "Dialogue-driven drama: disputes resolved in conference rooms and debates",
+      "Clean, unornamented prose focused strictly on concept and clarity"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=isaac+asimov",
+      "https://www.gutenberg.org/ebooks/author/400"
+    ]
+  },
+  {
+    "id": "philip-k-dick",
+    "name": "Philip K. Dick",
+    "genres": [
+      "Sci-Fi",
+      "Cyberpunk",
+      "Psychological Thriller"
+    ],
+    "vibes": [
+      "paranoia",
+      "hallucinatory",
+      "ontological_doubt",
+      "desperate"
+    ],
+    "tech_eras": [
+      "modern",
+      "cyberpunk",
+      "far_future"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Do Androids Dream of Electric Sheep?",
+      "Ubik",
+      "A Scanner Darkly"
+    ],
+    "signature_techniques": [
+      "Ontological instability: characters discovering their reality or memories are fake",
+      "Blue-collar protagonists caught in bizarre corporate or bureaucratic conspiracies",
+      "The definition of humanity tested against synthetic empathy",
+      "Claustrophobic, rapid-fire paranoia"
+    ],
+    "source_repositories": [
+      "https://www.gutenberg.org/ebooks/author/4904",
+      "https://standardebooks.org/ebooks/philip-k-dick"
+    ]
+  },
+  {
+    "id": "robert-jordan",
+    "name": "Robert Jordan",
+    "genres": [
+      "Epic Fantasy",
+      "High Fantasy"
+    ],
+    "vibes": [
+      "sweeping_grandeur",
+      "tactile_tradition",
+      "choral"
+    ],
+    "tech_eras": [
+      "medieval",
+      "renaissance"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "The Eye of the World",
+      "The Great Hunt",
+      "The Shadow Rising",
+      "Lord of Chaos"
+    ],
+    "signature_techniques": [
+      "Dual-channel elemental channeling with tangible weaves and taint costs",
+      "Exhaustive cultural costuming, customs, and regional mannerisms",
+      "Extensive ensemble POVs converging across vast geographical fronts",
+      "Tactical battle scale with detailed military maneuvering"
+    ],
+    "source_repositories": [
+      "https://dragonmount.com/",
+      "https://archive.org/search.php?query=robert+jordan"
+    ]
+  },
+  {
+    "id": "steven-erikson",
+    "name": "Steven Erikson",
+    "genres": [
+      "Grimdark",
+      "Military Fantasy",
+      "Epic Fantasy"
+    ],
+    "vibes": [
+      "monumental_scale",
+      "visceral_brutality",
+      "philosophical_grief"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "medieval"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Gardens of the Moon",
+      "Deadhouse Gates",
+      "Memories of Ice",
+      "Midnight Tides"
+    ],
+    "signature_techniques": [
+      "In media res drop: zero hand-holding exposition; reader pieces world together",
+      "Anthropological deep-time: extinct races, elder gods, fossilized magic",
+      "Sapper / frontline soldier gallows humor amidst apocalyptic slaughter",
+      "Warrens: magic drawn from alternate extradimensional planes with severe backdraft"
+    ],
+    "source_repositories": [
+      "https://malazan.fandom.com/",
+      "https://archive.org/search.php?query=steven+erikson"
+    ]
+  },
+  {
+    "id": "robin-hobb",
+    "name": "Robin Hobb",
+    "genres": [
+      "Epic Fantasy",
+      "Character Drama"
+    ],
+    "vibes": [
+      "heartbreakingly_intimate",
+      "somatic_pain",
+      "psychological_depth"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Assassins Apprentice",
+      "Royal Assassin",
+      "Ship of Magic",
+      "Fool's Fate"
+    ],
+    "signature_techniques": [
+      "First-person emotional devastation and psychological scarring",
+      "The Wit and Skill: intimate animal telepathy and addictive mental merging",
+      "Slow-burn relationship building and heavy personal cost for loyalty",
+      "Physical suffering, chronic injury, and psychological trauma that never fades"
+    ],
+    "source_repositories": [
+      "https://www.robinhobb.com/",
+      "https://archive.org/search.php?query=robin+hobb"
+    ]
+  },
+  {
+    "id": "patrick-rothfuss",
+    "name": "Patrick Rothfuss",
+    "genres": [
+      "Epic Fantasy",
+      "Progression"
+    ],
+    "vibes": [
+      "lyrical_cadence",
+      "mythic_storytelling",
+      "romantic"
+    ],
+    "tech_eras": [
+      "medieval",
+      "renaissance"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "The Name of the Wind",
+      "The Wise Man's Fear"
+    ],
+    "signature_techniques": [
+      "Sympathy: thermodynamic physics-based magic system (Alar, conservation of energy)",
+      "Frame-narrative: legend vs messy, impoverished reality told by the legend himself",
+      "Lyrical prose cadence: hidden poetic meters in dialogue and descriptions",
+      "Obsessive focus on poverty, money counting, and academic fees"
+    ],
+    "source_repositories": [
+      "https://blog.patrickrothfuss.com/",
+      "https://archive.org/search.php?query=patrick+rothfuss"
+    ]
+  },
+  {
+    "id": "ted-chiang",
+    "name": "Ted Chiang",
+    "genres": [
+      "Hard Sci-Fi",
+      "Philosophical Speculative"
+    ],
+    "vibes": [
+      "crystalline_intellect",
+      "elegiac_wonder",
+      "pure_logic"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "victorian",
+      "modern",
+      "far_future"
+    ],
+    "magic_hardness": "strict_physics",
+    "key_works": [
+      "Stories of Your Life and Others",
+      "Exhalation"
+    ],
+    "signature_techniques": [
+      "Single-premise extrapolation: exploring the emotional consequence of one physical rule",
+      "Linguistic and thermodynamic foundations of consciousness",
+      "Profound emotional revelation derived from mathematical or philosophical proofs",
+      "Zero-fluff brevity: every word serves the conceptual thesis"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=ted+chiang"
+    ]
+  },
+  {
+    "id": "liu-cixin",
+    "name": "Liu Cixin",
+    "genres": [
+      "Hard Sci-Fi",
+      "Cosmic Speculation"
+    ],
+    "vibes": [
+      "cosmic_dread",
+      "monumental_scale",
+      "coldly_scientific"
+    ],
+    "tech_eras": [
+      "modern",
+      "far_future"
+    ],
+    "magic_hardness": "strict_physics",
+    "key_works": [
+      "The Three-Body Problem",
+      "The Dark Forest",
+      "Death's End"
+    ],
+    "signature_techniques": [
+      "The Dark Forest hypothesis: cosmic sociology and interstellar game theory",
+      "Multi-dimensional physics weapons (vector foil collapse, sophons)",
+      "Centuries-spanning generational timeline transitions",
+      "Cold scientific objectivity dwarfing human individual emotional concerns"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=liu+cixin"
+    ]
+  },
+  {
+    "id": "dan-simmons",
+    "name": "Dan Simmons",
+    "genres": [
+      "Space Opera",
+      "Horror",
+      "Historical"
+    ],
+    "vibes": [
+      "erudite_grandeur",
+      "visceral_dread",
+      "literary_resonance"
+    ],
+    "tech_eras": [
+      "victorian",
+      "far_future"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Hyperion",
+      "The Fall of Hyperion",
+      "The Terror"
+    ],
+    "signature_techniques": [
+      "Canterbury Tales structure: diverse character voices and genres converging",
+      "The Shrike: terrifying physical avatar of entropic causality",
+      "Relentless Arctic historical survival detail (scurvy, frostbite, rotting rations)",
+      "Literary allusion (Keats, Chaucer) seamlessly woven into futuristic terror"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=dan+simmons"
+    ]
+  },
+  {
+    "id": "alastair-reynolds",
+    "name": "Alastair Reynolds",
+    "genres": [
+      "Hard Sci-Fi",
+      "Space Opera"
+    ],
+    "vibes": [
+      "gothic_cosmic",
+      "deep_time",
+      "melancholy_grandeur"
+    ],
+    "tech_eras": [
+      "far_future"
+    ],
+    "magic_hardness": "strict_physics",
+    "key_works": [
+      "Revelation Space",
+      "Chasm City",
+      "House of Suns"
+    ],
+    "signature_techniques": [
+      "Relativistic sub-light travel: the brutal physics of acceleration and time dilation",
+      "Gothic megastructures and derelict starships decaying over millennia",
+      "Inhibitors: relentless, uncommunicative machine apex predators",
+      "Cybernetic and biological transhumanism without cheerful optimism"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=alastair+reynolds"
+    ]
+  },
+  {
+    "id": "peter-watts",
+    "name": "Peter Watts",
+    "genres": [
+      "Hard Sci-Fi",
+      "Neuro-Horror"
+    ],
+    "vibes": [
+      "suffocating_dread",
+      "clinical_nihilism",
+      "neurological_rigor"
+    ],
+    "tech_eras": [
+      "far_future"
+    ],
+    "magic_hardness": "strict_physics",
+    "key_works": [
+      "Blindsight",
+      "Echopraxia",
+      "Starfish"
+    ],
+    "signature_techniques": [
+      "Consciousness as an evolutionary mistake / deadweight optimization",
+      "Rigorous neurobiology, evolutionary game theory, and cognitive science",
+      "First-contact horror: aliens that possess super-intelligence without sentience",
+      "Claustrophobic, high-pressure habitat environments"
+    ],
+    "source_repositories": [
+      "https://www.rifters.com/real/shorts.htm",
+      "https://archive.org/details/blindsight00watt"
+    ]
+  },
+  {
+    "id": "neal-stephenson",
+    "name": "Neal Stephenson",
+    "genres": [
+      "Cyberpunk",
+      "Historical Fiction",
+      "Hard Sci-Fi"
+    ],
+    "vibes": [
+      "hyper_intellectual",
+      "satirical",
+      "encyclopedic",
+      "kinetic"
+    ],
+    "tech_eras": [
+      "renaissance",
+      "victorian",
+      "cyberpunk",
+      "far_future"
+    ],
+    "magic_hardness": "strict_physics",
+    "key_works": [
+      "Snow Crash",
+      "Cryptonomicon",
+      "The Diamond Age",
+      "Anathem"
+    ],
+    "signature_techniques": [
+      "Encyclopedic technical deep-dives into cryptography, metallurgy, or orbital mechanics",
+      "Hyper-kinetic opening scenes with absurd, cutting-edge satire",
+      "Linguistic and memetic hacking: language as a virus",
+      "Deep historical causality linking ancient tech to future computational power"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=neal+stephenson",
+      "https://www.nealstephenson.com/"
+    ]
+  },
+  {
+    "id": "richard-k-morgan",
+    "name": "Richard K. Morgan",
+    "genres": [
+      "Cyberpunk",
+      "Grimdark",
+      "Sci-Fi Noir"
+    ],
+    "vibes": [
+      "hyper_violent",
+      "cynical",
+      "visceral",
+      "hardboiled"
+    ],
+    "tech_eras": [
+      "cyberpunk",
+      "medieval"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Altered Carbon",
+      "Broken Angels",
+      "The Steel Remains"
+    ],
+    "signature_techniques": [
+      "Resleeving / cortical stacks: identity detached from mortal biology",
+      "Hardboiled noir private-eye narration mixed with military black-ops brutality",
+      "Class disparity weaponized through physical immortality (the Meths)",
+      "Visceral, bone-crunching martial combat without aesthetic sanitization"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=richard+k+morgan"
+    ]
+  },
+  {
+    "id": "iain-m-banks",
+    "name": "Iain M. Banks",
+    "genres": [
+      "Space Opera",
+      "Post-Scarcity Sci-Fi"
+    ],
+    "vibes": [
+      "wry_wit",
+      "monumental_scale",
+      "morally_complex"
+    ],
+    "tech_eras": [
+      "far_future"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "The Player of Games",
+      "Use of Weapons",
+      "Excession"
+    ],
+    "signature_techniques": [
+      "The Culture: post-scarcity AI utopia doing dirty black-ops work (Special Circumstances)",
+      "Sentient starship Minds with eccentric, satirical names and god-like intellect",
+      "Non-linear structure (e.g. Use of Weapons forward and backward narrative chapters)",
+      "Extreme moral gray areas hidden behind decadent civilized comfort"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=iain+m+banks"
+    ]
+  },
+  {
+    "id": "ann-leckie",
+    "name": "Ann Leckie",
+    "genres": [
+      "Space Opera",
+      "Sociological Sci-Fi"
+    ],
+    "vibes": [
+      "cerebral",
+      "profoundly_alien",
+      "meticulous"
+    ],
+    "tech_eras": [
+      "far_future"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Ancillary Justice",
+      "Ancillary Sword",
+      "Ancillary Mercy"
+    ],
+    "signature_techniques": [
+      "Distributed artificial intelligence: a warship inhabiting twenty human bodies simultaneously",
+      "Radch linguistic gender neutrality ('she' for all characters) highlighting imperial norms",
+      "Meticulous etiquette, tea-drinking, and glove-wearing masking ruthless colonial violence",
+      "Themes of grief, fragmented identity, and imperial institutional inertia"
+    ],
+    "source_repositories": [
+      "https://annleckie.com/",
+      "https://archive.org/search.php?query=ann+leckie"
+    ]
+  },
+  {
+    "id": "adrian-tchaikovsky",
+    "name": "Adrian Tchaikovsky",
+    "genres": [
+      "Hard Sci-Fi",
+      "Evolutionary Speculation",
+      "Epic Fantasy"
+    ],
+    "vibes": [
+      "xenobiological_wonder",
+      "patient_grandeur",
+      "tactile"
+    ],
+    "tech_eras": [
+      "far_future",
+      "medieval"
+    ],
+    "magic_hardness": "strict_physics",
+    "key_works": [
+      "Children of Time",
+      "Children of Ruin",
+      "Shadows of the Apt"
+    ],
+    "signature_techniques": [
+      "Non-human cognitive perspectives: sentient jumping spiders, octopuses, and slime molds",
+      "Deep evolutionary timescales: tracking a species from stone tools to space travel",
+      "Biotechnology replacing mechanical computation",
+      "Sympathetic portrayal of radically alien minds communicating through vibration and chromatophores"
+    ],
+    "source_repositories": [
+      "https://adriantchaikovsky.com/",
+      "https://archive.org/search.php?query=adrian+tchaikovsky"
+    ]
+  },
+  {
+    "id": "n-k-jemisin",
+    "name": "N.K. Jemisin",
+    "genres": [
+      "Epic Fantasy",
+      "Science Fantasy"
+    ],
+    "vibes": [
+      "geological_fury",
+      "visceral_pain",
+      "unflinching"
+    ],
+    "tech_eras": [
+      "post_apocalyptic",
+      "bronze_age"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "The Fifth Season",
+      "The Obelisk Gate",
+      "The Stone Sky"
+    ],
+    "signature_techniques": [
+      "Second-person POV deployed for psychological dissociation and trauma",
+      "Orogeny: geological magic commanding tectonic seismic faults and kinetic energy transfer",
+      "Generational oppression and institutional enslavement baked into survival culture",
+      "The Earth itself as an abused, vengeful primordial consciousness"
+    ],
+    "source_repositories": [
+      "https://nkjemisin.com/",
+      "https://archive.org/search.php?query=n+k+jemisin"
+    ]
+  },
+  {
+    "id": "scott-lynch",
+    "name": "Scott Lynch",
+    "genres": [
+      "Fantasy Heist",
+      "Swashbuckling",
+      "Low Fantasy"
+    ],
+    "vibes": [
+      "audacious_wit",
+      "filthy_grandeur",
+      "cinematic_banter"
+    ],
+    "tech_eras": [
+      "renaissance",
+      "victorian"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Lies of Locke Lamora",
+      "Red Seas Under Red Skies"
+    ],
+    "signature_techniques": [
+      "Dual-timeline heist construction: past preparation explaining present improvisation",
+      "Rich, profane, aristocratic and gutter-level dialogue chemistry",
+      "Elderglass Venetian aesthetic: ruined alien structures repurposed by medieval thieves",
+      "Biting physical violence puncturing elegant confidence games"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=scott+lynch"
+    ]
+  },
+  {
+    "id": "glen-cook",
+    "name": "Glen Cook",
+    "genres": [
+      "Grimdark",
+      "Military Fantasy"
+    ],
+    "vibes": [
+      "gritty",
+      "laconic",
+      "soldier_cynicism",
+      "understated"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Black Company",
+      "Shadows Linger",
+      "The White Rose",
+      "Sweet Silver Blues"
+    ],
+    "signature_techniques": [
+      "Annalist voice: military chronicler recording skirmishes, rations, and dead mates",
+      "Soldiers caught between rival sociopathic demigods; survival over moral nobility",
+      "Understated magic: sorcerers who terrify with silence and severed heads",
+      "Laconic, unromanticized description of trenches, supply lines, and camp life"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=glen+cook"
+    ]
+  },
+  {
+    "id": "r-scott-bakker",
+    "name": "R. Scott Bakker",
+    "genres": [
+      "Grimdark",
+      "Philosophical Fantasy"
+    ],
+    "vibes": [
+      "bleak_intellect",
+      "metaphysical_dread",
+      "biblical_terror"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "medieval"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "The Darkness That Comes Before",
+      "The Warrior-Prophet",
+      "The Thousandfold Thought"
+    ],
+    "signature_techniques": [
+      "Logos / Dunyain conditioned intellect: reading micro-expressions to manipulate human souls",
+      "Gnostic sorcery: geometric linguistic magic that stains the soul with damnation",
+      "Crusade-scale religious fanaticism colliding with cosmic annihilation",
+      "Unflinching metaphysical horror and philosophical nihilism"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=r+scott+bakker"
+    ]
+  },
+  {
+    "id": "mark-lawrence",
+    "name": "Mark Lawrence",
+    "genres": [
+      "Grimdark",
+      "Science Fantasy"
+    ],
+    "vibes": [
+      "sociopathic_swagger",
+      "sharp_cynicism",
+      "fast_paced"
+    ],
+    "tech_eras": [
+      "post_apocalyptic",
+      "medieval"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Prince of Thorns",
+      "Red Sister"
+    ],
+    "signature_techniques": [
+      "First-person ruthless protagonist who refuses moral excuses",
+      "Post-apocalyptic Earth revealed beneath medieval fantasy ruins",
+      "Visceral, razor-sharp combat with minimal flowery description",
+      "Pacing driven by ruthless personal momentum"
+    ],
+    "source_repositories": [
+      "https://mark---lawrence.blogspot.com/",
+      "https://archive.org/search.php?query=mark+lawrence"
+    ]
+  },
+  {
+    "id": "brian-mcclellan",
+    "name": "Brian McClellan",
+    "genres": [
+      "Flintlock Fantasy",
+      "Military Fantasy"
+    ],
+    "vibes": [
+      "explosive_pace",
+      "tactical_clarity",
+      "revolutionary_fervor"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp",
+      "industrial_atla"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Promise of Blood",
+      "The Crimson Campaign",
+      "The Autumn Republic"
+    ],
+    "signature_techniques": [
+      "Powder Mages: ingesting black gunpowder to enhance reflexes and guide bullet trajectories",
+      "French Revolution-era military tactics, bayonet charges, and artillery volleys",
+      "Hard magic trade-offs between old sorcery and technological gunpowder",
+      "High-cadence military police procedural investigation running through battlefield campaigns"
+    ],
+    "source_repositories": [
+      "https://www.brianmcclellan.com/",
+      "https://archive.org/search.php?query=brian+mcclellan"
+    ]
+  },
+  {
+    "id": "john-gwynne",
+    "name": "John Gwynne",
+    "genres": [
+      "Heroic Fantasy",
+      "Viking Fantasy",
+      "Military"
+    ],
+    "vibes": [
+      "martial_glory",
+      "shieldwall_grit",
+      "brotherhood"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "medieval"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Malice",
+      "The Shadow of the Gods",
+      "The Hunger of the Gods"
+    ],
+    "signature_techniques": [
+      "Shield-wall combat: tactile weapon binds, shield boss smashes, and spear thrusts",
+      "Nordic blood-sworn camaraderie and wolf-hound animal companions",
+      "Dead gods whose bones and marrow are mined for armor and weapons",
+      "Percussive fight scenes grounded in historical European martial arts (HEMA)"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=john+gwynne"
+    ]
+  },
+  {
+    "id": "bernard-cornwell",
+    "name": "Bernard Cornwell",
+    "genres": [
+      "Historical Fiction",
+      "Military"
+    ],
+    "vibes": [
+      "shieldwall_fury",
+      "historical_authenticity",
+      "unvarnished"
+    ],
+    "tech_eras": [
+      "medieval",
+      "industrial_atla"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Last Kingdom",
+      "Sharpe's Eagle",
+      "Agincourt"
+    ],
+    "signature_techniques": [
+      "The definitive master of the infantry shield-wall clash",
+      "Tactile sensory reality of 9th-century Britain (mud, grease, blood on leather, cold mead)",
+      "Unsentimental soldier perspective: survival, prize money, and shield discipline over chivalry",
+      "Historical fidelity regarding weapon metallurgy, bow draw-weights, and cavalry limits"
+    ],
+    "source_repositories": [
+      "https://www.bernardcornwell.net/",
+      "https://archive.org/search.php?query=bernard+cornwell"
+    ]
+  },
+  {
+    "id": "patrick-obrian",
+    "name": "Patrick O'Brian",
+    "genres": [
+      "Historical Naval",
+      "Literary Adventure"
+    ],
+    "vibes": [
+      "period_authenticity",
+      "scholarly_wit",
+      "intimate_friendship"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp",
+      "industrial_atla"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Master and Commander",
+      "Post Captain",
+      "H.M.S. Surprise"
+    ],
+    "signature_techniques": [
+      "Napoleonic naval engineering: rigging, sail trim, gunnery drill, and hull timbers",
+      "Aubrey/Maturin friendship: man of action paired with intellectual surgeon-spy",
+      "Uncompromising 19th-century syntax, vocabulary, and period-appropriate manners",
+      "Understatement: naval broadsides described through exact cannon-smoke geometry"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=patrick+o+brian"
+    ]
+  },
+  {
+    "id": "hilary-mantel",
+    "name": "Hilary Mantel",
+    "genres": [
+      "Historical Fiction",
+      "Literary Drama"
+    ],
+    "vibes": [
+      "intimate_power",
+      "hyper_lucid",
+      "tactile_history"
+    ],
+    "tech_eras": [
+      "renaissance"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Wolf Hall",
+      "Bring Up the Bodies",
+      "The Mirror & the Light"
+    ],
+    "signature_techniques": [
+      "Present-tense third-person limited following Thomas Cromwell's predatory intellect",
+      "History felt on the skin: fabric textures, river damp, tallow candle smoke, cold coins",
+      "Power mapped through ledger books, tax rolls, and hushed council conversations",
+      "Absolute lack of melodrama: executions and palace coups happen with administrative quiet"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=hilary+mantel"
+    ]
+  },
+  {
+    "id": "ernest-hemingway",
+    "name": "Ernest Hemingway",
+    "genres": [
+      "Literary Fiction",
+      "Adventure"
+    ],
+    "vibes": [
+      "austere",
+      "muscular",
+      "understated",
+      "stoic"
+    ],
+    "tech_eras": [
+      "modern",
+      "industrial"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Old Man and the Sea",
+      "A Farewell to Arms",
+      "For Whom the Bell Tolls"
+    ],
+    "signature_techniques": [
+      "The Iceberg Theory: seven-eighths of the emotional truth lies underwater",
+      "Polysyndeton and short declarative sentences bound with 'and'",
+      "Sensory purity: food, wine, weather, and physical endurance",
+      "Grace under pressure: characters enduring tragedy without complaints"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/ernest-hemingway",
+      "https://www.gutenberg.org/ebooks/author/374"
+    ]
+  },
+  {
+    "id": "gabriel-garcia-marquez",
+    "name": "Gabriel García Márquez",
+    "genres": [
+      "Magical Realism",
+      "Epic Saga"
+    ],
+    "vibes": [
+      "mythic_grandeur",
+      "cyclical_time",
+      "sensory_profusion"
+    ],
+    "tech_eras": [
+      "victorian",
+      "industrial"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "One Hundred Years of Solitude",
+      "Love in the Time of Cholera"
+    ],
+    "signature_techniques": [
+      "Surreal miracles described with the matter-of-fact tone of a village grandmother",
+      "Cyclical generational repetition: names, sins, and fortunes repeating in spirals",
+      "Lush, tropical sensory immersion (yellow butterflies, insomnia plague, ice tasting)",
+      "Sweeping chronological compressions in single sentences spanning decades"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=gabriel+garcia+marquez"
+    ]
+  },
+  {
+    "id": "jorge-luis-borges",
+    "name": "Jorge Luis Borges",
+    "genres": [
+      "Philosophical Fiction",
+      "Magical Realism"
+    ],
+    "vibes": [
+      "metaphysical_labyrinth",
+      "intellectual_dread",
+      "scholarly"
+    ],
+    "tech_eras": [
+      "victorian",
+      "modern"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Ficciones",
+      "The Aleph",
+      "Labyrinths"
+    ],
+    "signature_techniques": [
+      "Fictional reviews of non-existent books and scholarly footnotes",
+      "Infinite labyrinths, mirrors, forking paths of time, and universal libraries",
+      "Compressed philosophical paradoxes resolved in three-page masterpieces",
+      "Impeccable erudite detachment describing impossible cosmic phenomena"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=jorge+luis+borges"
+    ]
+  },
+  {
+    "id": "italo-calvino",
+    "name": "Italo Calvino",
+    "genres": [
+      "Postmodern",
+      "Fable",
+      "Literary"
+    ],
+    "vibes": [
+      "lightness",
+      "quickness",
+      "exactitude",
+      "crystalline"
+    ],
+    "tech_eras": [
+      "medieval",
+      "modern",
+      "renaissance"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Invisible Cities",
+      "If on a winter's night a traveler",
+      "Six Memos for the Next Millennium"
+    ],
+    "signature_techniques": [
+      "Lightness: subtracting weight from language without losing precision",
+      "Quickness: agile narrative velocity and mathematical elegance of plot",
+      "Exactitude: crystalline, well-defined images that linger permanently",
+      "Visibility: thinking in visual architectures before translating to prose"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=italo+calvino"
+    ]
+  },
+  {
+    "id": "raymond-chandler",
+    "name": "Raymond Chandler",
+    "genres": [
+      "Noir",
+      "Hardboiled Detective"
+    ],
+    "vibes": [
+      "cynical_poetry",
+      "neon_shadows",
+      "bittersweet_grit"
+    ],
+    "tech_eras": [
+      "modern",
+      "industrial"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Big Sleep",
+      "The Long Goodbye",
+      "Farewell, My Lovely"
+    ],
+    "signature_techniques": [
+      "The definitive hardboiled voice: razor-sharp similes and cynical urban poetry",
+      "A down-and-out detective walking mean streets while remaining an unbought man",
+      "Atmospheric California weather (Santa Ana winds, oppressive heat, cold sea fog)",
+      "Dialogue that functions as competitive fencing between predator and detective"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=raymond+chandler",
+      "https://fadedpage.com/csearch.php?author=Chandler,%20Raymond"
+    ]
+  },
+  {
+    "id": "dashiell-hammett",
+    "name": "Dashiell Hammett",
+    "genres": [
+      "Hardboiled Detective",
+      "Crime Thriller"
+    ],
+    "vibes": [
+      "spare",
+      "unsentimental",
+      "brutal_clarity"
+    ],
+    "tech_eras": [
+      "modern",
+      "industrial"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Maltese Falcon",
+      "Red Harvest",
+      "The Thin Man"
+    ],
+    "signature_techniques": [
+      "Behaviorist point of view: zero access to internal thought; only physical actions recorded",
+      "Every character is corrupt, motivated by raw greed, lust, or survival",
+      "The Flitcraft Parable: life as a random falling beam of steel",
+      "Short, punchy declarative dialogue stripped of emotional padding"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/dashiell-hammett",
+      "https://www.gutenberg.org/ebooks/author/416"
+    ]
+  },
+  {
+    "id": "tana-french",
+    "name": "Tana French",
+    "genres": [
+      "Psychological Mystery",
+      "Police Procedural",
+      "Irish Noir"
+    ],
+    "vibes": [
+      "claustrophobic_grief",
+      "haunted_memory",
+      "intimate_dread"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "In the Woods",
+      "The Likeness",
+      "Broken Harbor"
+    ],
+    "signature_techniques": [
+      "Psychological contamination: detectives mentally unraveling as they solve the case",
+      "Irish rural and suburban landscape soaked in historical dread and damp cold",
+      "Interrogation scenes that function as intimate psychological duels",
+      "Unreliable memory and the terrifying ambiguity of unresolved childhood trauma"
+    ],
+    "source_repositories": [
+      "https://tanafrench.com/",
+      "https://archive.org/search.php?query=tana+french"
+    ]
+  },
+  {
+    "id": "gillian-flynn",
+    "name": "Gillian Flynn",
+    "genres": [
+      "Psychological Thriller",
+      "Domestic Noir"
+    ],
+    "vibes": [
+      "venomous_cynicism",
+      "toxic_intimacy",
+      "razor_sharp"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Gone Girl",
+      "Sharp Objects",
+      "Dark Places"
+    ],
+    "signature_techniques": [
+      "The 'Cool Girl' monologue: savage dismantling of female cultural archetypes",
+      "Dual sociopathic POVs exposing the weaponization of domestic marriage",
+      "Midwestern decay, self-harm, and generational maternal cruelty",
+      "Shock midpoint reversals that fundamentally alter the genre of the book"
+    ],
+    "source_repositories": [
+      "https://gillian-flynn.com/",
+      "https://archive.org/search.php?query=gillian+flynn"
+    ]
+  },
+  {
+    "id": "keigo-higashino",
+    "name": "Keigo Higashino",
+    "genres": [
+      "Honkaku Mystery",
+      "Psychological Suspense"
+    ],
+    "vibes": [
+      "mathematical_precision",
+      "cold_compassion",
+      "tragic_logic"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Devotion of Suspect X",
+      "Malice",
+      "Salvation of a Saint"
+    ],
+    "signature_techniques": [
+      "Inverted detective story: reader witnesses the murder in chapter one; the duel is solving the alibi",
+      "Genius mathematician vs physicist intellectual chess match",
+      "Motive derived from profound, self-sacrificing romantic or familial obsession",
+      "Clean, unadorned Japanese prose focused on deductive logic and moral tragedy"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=keigo+higashino"
+    ]
+  },
+  {
+    "id": "fyodor-dostoevsky",
+    "name": "Fyodor Dostoevsky",
+    "genres": [
+      "Psychological Realism",
+      "Philosophical Drama"
+    ],
+    "vibes": [
+      "feverish_intensity",
+      "polyphonic_debate",
+      "spiritual_torment"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Crime and Punishment",
+      "The Brothers Karamazov",
+      "Notes from Underground"
+    ],
+    "signature_techniques": [
+      "Polyphonic novel: opposing philosophical ideologies given equally brilliant voices",
+      "Fever-pitch psychological deterioration following a crime (sweat, delirium, hallucinations)",
+      "Claustrophobic tavern debates and lodging room interrogations (Porfiry Petrovich)",
+      "Radical moral redemption born only through profound physical and spiritual suffering"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/fyodor-dostoevsky",
+      "https://www.gutenberg.org/ebooks/author/314"
+    ]
+  },
+  {
+    "id": "leo-tolstoy",
+    "name": "Leo Tolstoy",
+    "genres": [
+      "Historical Epic",
+      "Realism"
+    ],
+    "vibes": [
+      "monumental_clarity",
+      "panoramic_life",
+      "moral_gravity"
+    ],
+    "tech_eras": [
+      "victorian",
+      "medieval"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "War and Peace",
+      "Anna Karenina",
+      "The Death of Ivan Ilyich"
+    ],
+    "signature_techniques": [
+      "Defamiliarization (Ostranenie): describing familiar social rituals as absurd physical gestures",
+      "Seamless shifting between vast macro-historical armies and a soldier’s boot lace",
+      "Sensory vitality of nature (mowing grass, hunting wolves, watching falling snow)",
+      "Unflinching examination of human mortality and vanity before death"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/leo-tolstoy",
+      "https://www.gutenberg.org/ebooks/author/136"
+    ]
+  },
+  {
+    "id": "franz-kafka",
+    "name": "Franz Kafka",
+    "genres": [
+      "Absurdist Fiction",
+      "Surrealism",
+      "Existential Horror"
+    ],
+    "vibes": [
+      "bureaucratic_nightmare",
+      "claustrophobic_guilt",
+      "matter_of_fact"
+    ],
+    "tech_eras": [
+      "industrial",
+      "modern"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Metamorphosis",
+      "The Trial",
+      "The Castle"
+    ],
+    "signature_techniques": [
+      "Outrageous surreal horror introduced in line one with total bureaucratic calm",
+      "The faceless, impenetrable authority of court systems, clerks, and closed doors",
+      "Protagonist attempting to apply rational logic to an inherently irrational nightmare",
+      "Suffocating guilt that predates the accusation"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/franz-kafka",
+      "https://www.gutenberg.org/ebooks/author/520"
+    ]
+  },
+  {
+    "id": "h-p-lovecraft",
+    "name": "H.P. Lovecraft",
+    "genres": [
+      "Cosmic Horror",
+      "Weird Fiction"
+    ],
+    "vibes": [
+      "cosmic_dread",
+      "intellectual_madness",
+      "antiquarian"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp",
+      "modern"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Call of Cthulhu",
+      "At the Mountains of Madness",
+      "The Shadow over Innsmouth"
+    ],
+    "signature_techniques": [
+      "Cosmic insignificance: humanity as a fleeting bacteria in an indifferent void",
+      "Antiquarian epistolary framing: research journals, sailor depositions, autopsy logs",
+      "Non-Euclidean geometry and physical architectural sickness",
+      "Madness triggered by the sheer mathematical comprehension of cosmic scale"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/h-p-lovecraft",
+      "https://www.gutenberg.org/ebooks/author/34724"
+    ]
+  },
+  {
+    "id": "clive-barker",
+    "name": "Clive Barker",
+    "genres": [
+      "Body Horror",
+      "Dark Fantasy"
+    ],
+    "vibes": [
+      "visceral_transcendence",
+      "flesh_intimacy",
+      "baroque_horror"
+    ],
+    "tech_eras": [
+      "modern",
+      "victorian"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Hellbound Heart",
+      "Books of Blood",
+      "Weaveworld"
+    ],
+    "signature_techniques": [
+      "Body modification as metaphysical revelation: pain and pleasure intertwined",
+      "Baroque sensory beauty discovered within grotesque bodily transformation",
+      "Demons (Cenobites) operating under strict bureaucratic infernal orders",
+      "Sensory richness contrasting meat, hooks, blood, and celestial fabrics"
+    ],
+    "source_repositories": [
+      "https://www.clivebarker.info/",
+      "https://archive.org/search.php?query=clive+barker"
+    ]
+  },
+  {
+    "id": "jeff-vandermeer",
+    "name": "Jeff VanderMeer",
+    "genres": [
+      "New Weird",
+      "Eco-Horror",
+      "Speculative Fiction"
+    ],
+    "vibes": [
+      "biological_uncanny",
+      "hallucinatory",
+      "clinical_dread"
+    ],
+    "tech_eras": [
+      "modern",
+      "far_future"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Southern Reach Trilogy (Annihilation, Authority, Acceptance)",
+      "Borne"
+    ],
+    "signature_techniques": [
+      "Area X: an ecology that refracts and assimilates human consciousness into flora/fauna",
+      "Clinical scientific biologist narration describing grotesque transformations with detached precision",
+      "Words grown as living fungal fruiting bodies along subterranean walls (The Tower/Tunnel)",
+      "Total breakdown of the boundary between observer and environment"
+    ],
+    "source_repositories": [
+      "https://www.jeffvandermeer.com/",
+      "https://archive.org/search.php?query=jeff+vandermeer"
+    ]
+  },
+  {
+    "id": "shirley-jackson",
+    "name": "Shirley Jackson",
+    "genres": [
+      "Gothic Horror",
+      "Psychological Suspense"
+    ],
+    "vibes": [
+      "quiet_insanity",
+      "suburban_rot",
+      "genteel_dread"
+    ],
+    "tech_eras": [
+      "modern",
+      "victorian"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Haunting of Hill House",
+      "We Have Always Lived in the Castle",
+      "The Lottery"
+    ],
+    "signature_techniques": [
+      "Architecture as living psychology: 'Hill House, not sane, stood by itself against its hills'",
+      "Unreliable female narrators whose internal fragility warps domestic reality",
+      "Cruel collective mob mentality hidden behind polite village tea-drinking",
+      "Subtle psychological decay without need of monstrous visual special effects"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=shirley+jackson"
+    ]
+  },
+  {
+    "id": "mary-shelley",
+    "name": "Mary Shelley",
+    "genres": [
+      "Gothic",
+      "Sci-Fi",
+      "Tragic Drama"
+    ],
+    "vibes": [
+      "philosophical_grief",
+      "romantic_sublime",
+      "haunted_guilt"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp",
+      "renaissance"
+    ],
+    "magic_hardness": "scientific_rigorous",
+    "key_works": [
+      "Frankenstein",
+      "The Last Man"
+    ],
+    "signature_techniques": [
+      "The birth of science fiction: scientific creation divorced from ethical accountability",
+      "Epistolary frame narrative: Arctic ship captain listening to a ruined scientist's confession",
+      "The Monster given profound, eloquent, philosophical voice questioning its creator",
+      "Gothic landscapes (Mont Blanc, stormy Lake Geneva) mirroring internal guilt"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/mary-shelley",
+      "https://www.gutenberg.org/ebooks/author/61"
+    ]
+  },
+  {
+    "id": "bram-stoker",
+    "name": "Bram Stoker",
+    "genres": [
+      "Gothic Horror",
+      "Epistolary Vampire"
+    ],
+    "vibes": [
+      "claustrophobic_terror",
+      "antiquarian_dread",
+      "methodical"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Dracula",
+      "The Lair of the White Worm"
+    ],
+    "signature_techniques": [
+      "Pure epistolary structure: telegrams, phonograph recordings, diary entries, train timetables",
+      "Modern Victorian technology (stenography, blood transfusions) marshaled against ancient evil",
+      "Sensory terror of the Carpathians: wolves, crumbling battlements, garlic, cold earth",
+      "Gradual accumulation of mundane domestic anomalies building to monstrous revelation"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/bram-stoker",
+      "https://www.gutenberg.org/ebooks/author/190"
+    ]
+  },
+  {
+    "id": "edgar-allan-poe",
+    "name": "Edgar Allan Poe",
+    "genres": [
+      "Gothic",
+      "Psychological Horror",
+      "Detective Fiction"
+    ],
+    "vibes": [
+      "morbid_fever",
+      "macabre_elegance",
+      "claustrophobic"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Fall of the House of Usher",
+      "The Tell-Tale Heart",
+      "The Murders in the Rue Morgue"
+    ],
+    "signature_techniques": [
+      "Single effect theory: every single word, comma, and tone must drive toward one unified emotional impact",
+      "The unreliable mad narrator confessing his crimes while insisting upon his perfect sanity",
+      "The ticking physical manifestation of guilt (beating heart under floorboards, ticking clock)",
+      "Sensory decay: crumbling stone mansions, moldering tapestries, tarnished tarn water"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/edgar-allan-poe",
+      "https://www.gutenberg.org/ebooks/author/481"
+    ]
+  },
+  {
+    "id": "jin-yong",
+    "name": "Jin Yong (Louis Cha)",
+    "genres": [
+      "Wuxia",
+      "Historical Martial Arts",
+      "Epic Romance"
+    ],
+    "vibes": [
+      "righteous_chivalry",
+      "sweeping_historical",
+      "martial_philosophy"
+    ],
+    "tech_eras": [
+      "medieval",
+      "bronze_age"
+    ],
+    "magic_hardness": "progression_meridian",
+    "key_works": [
+      "The Legend of the Condor Heroes",
+      "Demi-Gods and Semi-Devils",
+      "The Smiling, Proud Wanderer"
+    ],
+    "signature_techniques": [
+      "Jianghu chivalric code (Xia): righteousness and brotherhood outweighing imperial law",
+      "Internal energy (Qi) techniques mapped to Taoist/Buddhist philosophy and acupuncture points",
+      "Real historical dynasty wars intertwined with fictional martial sects (Shaolin, Wudang)",
+      "Poetic martial technique names reflecting philosophy, nature, and emotional intent"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=jin+yong",
+      "https://wuxiasociety.com/"
+    ]
+  },
+  {
+    "id": "gu-long",
+    "name": "Gu Long",
+    "genres": [
+      "Wuxia",
+      "Martial Noir",
+      "Mystery"
+    ],
+    "vibes": [
+      "poetic_staccato",
+      "cynical_romance",
+      "philosophical_duels"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "progression_meridian",
+    "key_works": [
+      "The Sentimental Swordsman, Ruthless Sword",
+      "Lu Xiaofeng Series"
+    ],
+    "signature_techniques": [
+      "Staccato, single-line poetic sentences focusing on psychological tension before a duel",
+      "Duels decided in a single split-second stroke: speed, angle, and psychological will",
+      "Hardboiled detectives walking through the martial underworld drinking cold wine",
+      "Philosophical loneliness: master swordsmen cursed by their own peerless skill"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=gu+long"
+    ]
+  },
+  {
+    "id": "er-gen",
+    "name": "Er Gen",
+    "genres": [
+      "Xianxia",
+      "Cultivation",
+      "Progression Fantasy"
+    ],
+    "vibes": [
+      "cosmic_ruthlessness",
+      "unyielding_will",
+      "grand_scale"
+    ],
+    "tech_eras": [
+      "bronze_age",
+      "medieval",
+      "cosmic"
+    ],
+    "magic_hardness": "progression_meridian",
+    "key_works": [
+      "Renegade Immortal",
+      "I Shall Seal the Heavens",
+      "A Will Eternal"
+    ],
+    "signature_techniques": [
+      "Dao comprehension: breakthrough achieved through understanding cosmic truth, not just energy hoarding",
+      "The brutal ruthlessness of the cultivation world: resources are zero-sum",
+      "Divine sense battles: mental pressure waves crushing weaker adepts before physical contact",
+      "Deep personal tragedy and centuries of solitary meditation hardening the protagonist"
+    ],
+    "source_repositories": [
+      "https://www.wuxiaworld.com/",
+      "https://archive.org/search.php?query=er+gen"
+    ]
+  },
+  {
+    "id": "i-eat-tomatoes",
+    "name": "I Eat Tomatoes (Wo Chi Xi Hong Shi)",
+    "genres": [
+      "Xianxia",
+      "High Fantasy Progression"
+    ],
+    "vibes": [
+      "exponential_growth",
+      "pure_martial_drive",
+      "cosmic_exploration"
+    ],
+    "tech_eras": [
+      "medieval",
+      "cosmic"
+    ],
+    "magic_hardness": "progression_meridian",
+    "key_works": [
+      "Coiling Dragon",
+      "Desolate Era",
+      "Swallowed Star"
+    ],
+    "signature_techniques": [
+      "Clear, multi-tiered realm progressions (Saint, Demigod, God, Sovereign)",
+      "Elemental laws: Earth, Wind, Fire, Water, Light, Darkness, Destruction",
+      "Exponential scale: moving from small continent to planar battlefields spanning galaxies",
+      "Pure, relentless training work ethic overcoming aristocratic bloodlines"
+    ],
+    "source_repositories": [
+      "https://www.wuxiaworld.com/",
+      "https://archive.org/search.php?query=i+eat+tomatoes"
+    ]
+  },
+  {
+    "id": "shirtaloon",
+    "name": "Shirtaloon (Travis Deverell)",
+    "genres": [
+      "LitRPG",
+      "Progression Fantasy",
+      "Isekai"
+    ],
+    "vibes": [
+      "snarky_wit",
+      "existential_banter",
+      "hard_magic_quantified"
+    ],
+    "tech_eras": [
+      "medieval",
+      "modern"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "He Who Fights with Monsters 1",
+      "He Who Fights with Monsters 2",
+      "He Who Fights with Monsters 3"
+    ],
+    "signature_techniques": [
+      "Essence ability combinations: 3 base essences produce a confluent fourth essence",
+      "Protagonist utilizing dark, affliction/curse magic while maintaining moral conscience",
+      "Heavy political debate between Earth democratic philosophy and aristocratic feudalism",
+      "Fast, banter-heavy squad dialogue contrasting with horrifying cosmic existential dread"
+    ],
+    "source_repositories": [
+      "https://www.royalroad.com/fiction/26294/he-who-fights-with-monsters",
+      "https://archive.org/search.php?query=shirtaloon"
+    ]
+  },
+  {
+    "id": "zogarth",
+    "name": "Zogarth",
+    "genres": [
+      "LitRPG",
+      "Progression Fantasy"
+    ],
+    "vibes": [
+      "lone_hunter",
+      "instinctual_combat",
+      "exponential_progression"
+    ],
+    "tech_eras": [
+      "modern",
+      "cosmic"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "The Primal Hunter 1",
+      "The Primal Hunter 2",
+      "The Primal Hunter 3"
+    ],
+    "signature_techniques": [
+      "Bloodline instincts: sensory awareness, spatial perception, and predatory calm",
+      "Bow and alchemy specialization: crafting unique poisons and explosive arrows",
+      "Solitary dungeon crawling focused on individual tactical execution and patience",
+      "Direct, transparent system mechanics with measurable attributes and skill tiers"
+    ],
+    "source_repositories": [
+      "https://www.royalroad.com/fiction/36049/the-primal-hunter"
+    ]
+  },
+  {
+    "id": "cale-plamann",
+    "name": "Cale Plamann",
+    "genres": [
+      "Progression Fantasy",
+      "LitRPG",
+      "Dungeon Crawler"
+    ],
+    "vibes": [
+      "tactical_grit",
+      "team_cohesion",
+      "hard_magic"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Blessed Time",
+      "Tower Apocalypse"
+    ],
+    "signature_techniques": [
+      "Time loop tactical optimization: failure loops analyzed to discover lethal edge cases",
+      "Class synergy and squad tactical role division (tank, skirmisher, support, artillery)",
+      "Real emotional toll of watching companions die across multiple iterations",
+      "Rigid resource constraints on magical mana and stamina"
+    ],
+    "source_repositories": [
+      "https://www.royalroad.com/"
+    ]
+  },
+  {
+    "id": "daphne-du-maurier",
+    "name": "Daphne du Maurier",
+    "genres": [
+      "Gothic Romance",
+      "Psychological Suspense"
+    ],
+    "vibes": [
+      "haunted_memory",
+      "coastal_melancholy",
+      "suffocating_secrets"
+    ],
+    "tech_eras": [
+      "victorian_gaslamp",
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Rebecca",
+      "My Cousin Rachel",
+      "The Birds"
+    ],
+    "signature_techniques": [
+      "The shadow of a dead first wife dominating an aristocratic coastal estate (Manderley)",
+      "Nameless, insecure second wife navigating cruel servants and unspoken family secrets",
+      "Atmospheric coastal weather: fog, breakers on jagged rocks, rotting rhododendrons",
+      "Slow, psychological dread turning domestic marriage into an unbearable trap"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=daphne+du+maurier"
+    ]
+  },
+  {
+    "id": "sarah-j-maas",
+    "name": "Sarah J. Maas",
+    "genres": [
+      "Romantasy",
+      "High Fantasy",
+      "Young Adult"
+    ],
+    "vibes": [
+      "intense_yearning",
+      "high_stakes_romance",
+      "court_intrigue"
+    ],
+    "tech_eras": [
+      "medieval",
+      "renaissance"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "A Court of Thorns and Roses",
+      "Throne of Glass"
+    ],
+    "signature_techniques": [
+      "Mating bonds: primal, supernatural soul connections with tangible physical aches",
+      "Fae court seasonal politics (Night Court, Spring Court) with elaborate dress and rituals",
+      "Protagonist surviving physical trauma and captivity to reclaim personal sovereignty",
+      "High emotional melodrama, simmering enemies-to-lovers romantic tension"
+    ],
+    "source_repositories": [
+      "https://sarahjmaas.com/",
+      "https://archive.org/search.php?query=sarah+j+maas"
+    ]
+  },
+  {
+    "id": "rebecca-yarros",
+    "name": "Rebecca Yarros",
+    "genres": [
+      "Romantasy",
+      "Military Academy",
+      "Dragon Fantasy"
+    ],
+    "vibes": [
+      "lethal_competition",
+      "intense_attraction",
+      "high_velocity"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Fourth Wing",
+      "Iron Flame"
+    ],
+    "signature_techniques": [
+      "Brutal military college survival rates: daily fatalities during obstacle runs and drills",
+      "Dragon-rider telepathic bonding with distinct signet magic capabilities",
+      "Physical fragility (chronic joint hypermobility) compensated by tactical intellect and poison",
+      "High-stakes sexual tension between cadet and ruthless wing leader"
+    ],
+    "source_repositories": [
+      "https://www.rebeccayarros.com/"
+    ]
+  },
+  {
+    "id": "leigh-bardugo",
+    "name": "Leigh Bardugo",
+    "genres": [
+      "Gaslamp Fantasy",
+      "Heist",
+      "Dark Fantasy"
+    ],
+    "vibes": [
+      "gritty_glamour",
+      "streetwise_camaraderie",
+      "atmospheric"
+    ],
+    "tech_eras": [
+      "industrial_atla",
+      "victorian_gaslamp"
+    ],
+    "magic_hardness": "hard_sandersonian",
+    "key_works": [
+      "Six of Crows",
+      "Crooked Kingdom",
+      "Shadow and Bone"
+    ],
+    "signature_techniques": [
+      "Small Science magic system (Corporalki, Etherealki, Materialki) based on molecular manipulation",
+      "Ketterdam criminal underworld: canal gangs, gambling parlors, and corrupt merchant councils",
+      "Ensemble cast with diverse physical trauma, limps, and distinct somatic tells",
+      "High-stakes heist coordination with unexpected tactical contingency plans"
+    ],
+    "source_repositories": [
+      "https://leighbardugo.com/",
+      "https://archive.org/search.php?query=leigh+bardugo"
+    ]
+  },
+  {
+    "id": "james-clavell",
+    "name": "James Clavell",
+    "genres": [
+      "Historical Epic",
+      "Political Intrigue"
+    ],
+    "vibes": [
+      "meticulous_culture",
+      "unforgiving_honor",
+      "clash_of_civilizations"
+    ],
+    "tech_eras": [
+      "renaissance"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Shōgun",
+      "Tai-Pan",
+      "Noble House"
+    ],
+    "signature_techniques": [
+      "Total immersion into feudal Japanese political, cultural, and martial customs",
+      "Language barrier as plot catalyst: protagonist learning grammar alongside cultural nuances",
+      "Every conversation carries life-or-death stakes governed by strict honor codes (Bushido)",
+      "Patience as the supreme weapon: long-game political maneuvering across provinces"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=james+clavell"
+    ]
+  },
+  {
+    "id": "toni-morrison",
+    "name": "Toni Morrison",
+    "genres": [
+      "Literary Fiction",
+      "Historical Magical Realism"
+    ],
+    "vibes": [
+      "haunted_lyricism",
+      "monumental_grief",
+      "poetic_truth"
+    ],
+    "tech_eras": [
+      "victorian",
+      "modern"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "Beloved",
+      "Song of Solomon",
+      "The Bluest Eye"
+    ],
+    "signature_techniques": [
+      "Trauma materialized as a physical, hungry entity living inside the house",
+      "Lyrical prose cadence rooted in African American oral tradition and blues rhythm",
+      "Unflinching confrontation with the physical and psychological atrocities of slavery",
+      "Fragmented, non-linear memory structures mirroring psychological PTSD"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=toni+morrison"
+    ]
+  },
+  {
+    "id": "kazuo-ishiguro",
+    "name": "Kazuo Ishiguro",
+    "genres": [
+      "Literary Fiction",
+      "Speculative",
+      "Dystopian"
+    ],
+    "vibes": [
+      "understated_heartbreak",
+      "polite_repression",
+      "haunting_quiet"
+    ],
+    "tech_eras": [
+      "victorian",
+      "modern",
+      "medieval"
+    ],
+    "magic_hardness": "soft_numinous",
+    "key_works": [
+      "The Remains of the Day",
+      "Never Let Me Go",
+      "The Buried Giant"
+    ],
+    "signature_techniques": [
+      "The master of polite emotional repression: protagonist lying to themselves in first person",
+      "Devastating emotional truths revealed through minor slips in formal social etiquette",
+      "Quiet dystopian premises accepted as mundane normality by the characters",
+      "Deep, unspoken grief acknowledged only in the final pages of the book"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=kazuo+ishiguro"
+    ]
+  },
+  {
+    "id": "umberto-eco",
+    "name": "Umberto Eco",
+    "genres": [
+      "Historical Mystery",
+      "Semiotics",
+      "Literary"
+    ],
+    "vibes": [
+      "erudite_detective",
+      "medieval_darkness",
+      "philosophical"
+    ],
+    "tech_eras": [
+      "medieval"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Name of the Rose",
+      "Foucault's Pendulum"
+    ],
+    "signature_techniques": [
+      "Monastic murder mystery solved through Aristotelian logic and semiotic deduction",
+      "Labyrinthine library design reflecting medieval cosmological philosophies",
+      "Deep theological debates on poverty and heresy functioning as murder motives",
+      "Sensory richness of medieval scriptoria, herbs, parchment inks, and abbey bells"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=umberto+eco"
+    ]
+  },
+  {
+    "id": "donna-tartt",
+    "name": "Donna Tartt",
+    "genres": [
+      "Dark Academia",
+      "Psychological Thriller",
+      "Literary"
+    ],
+    "vibes": [
+      "obsessive_beauty",
+      "classical_guilt",
+      "hothouse_aesthetic"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Secret History",
+      "The Goldfinch"
+    ],
+    "signature_techniques": [
+      "The pioneer of Dark Academia: elite classics students seeking Dionysian ecstasy",
+      "Inverted murder mystery: murder revealed on page one; story explores the guilt and rot",
+      "Sensory obsession with antique textiles, Greek grammar, cigarette smoke, and autumn rain",
+      "Slow-motion psychological disintegration of an insular, codependent clique"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=donna+tartt"
+    ]
+  },
+  {
+    "id": "tom-clancy",
+    "name": "Tom Clancy",
+    "genres": [
+      "Techno-Thriller",
+      "Military Fiction"
+    ],
+    "vibes": [
+      "procedural_rigor",
+      "geopolitical_chess",
+      "high_stakes"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Hunt for Red October",
+      "Patriot Games",
+      "Red Storm Rising"
+    ],
+    "signature_techniques": [
+      "Exhaustive, classified-level accuracy regarding sonar acoustics, radar, and naval hulls",
+      "Multi-theater geopolitical escalation tracking heads of state down to individual torpedo loaders",
+      "Operational protocol: military checklists, comms traffic, and tactical doctrine",
+      "High-tension underwater submarine cat-and-mouse cataclysms"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=tom+clancy"
+    ]
+  },
+  {
+    "id": "michael-connelly",
+    "name": "Michael Connelly",
+    "genres": [
+      "Police Procedural",
+      "Crime Thriller",
+      "Legal Noir"
+    ],
+    "vibes": [
+      "dogged_tenacity",
+      "cynical_realism",
+      "street_sweat"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Black Echo",
+      "The Poet",
+      "The Lincoln Lawyer"
+    ],
+    "signature_techniques": [
+      "Harry Bosch ethos: 'Everybody counts or nobody counts'",
+      "Meticulous LAPD detective procedure: murder book logs, ballistics, coroner reports",
+      "Los Angeles geography mapped as an active, smog-choked, freeway-divided character",
+      "Bureaucratic internal politics and departmental corruption resisting justice"
+    ],
+    "source_repositories": [
+      "https://www.michaelconnelly.com/",
+      "https://archive.org/search.php?query=michael+connelly"
+    ]
+  },
+  {
+    "id": "lee-child",
+    "name": "Lee Child",
+    "genres": [
+      "Action Thriller",
+      "Drifter Mystery"
+    ],
+    "vibes": [
+      "hyper_competent",
+      "kinetic_physics",
+      "relentless_momentum"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Killing Floor",
+      "One Shot",
+      "Die Trying"
+    ],
+    "signature_techniques": [
+      "Jack Reacher micro-breakdown: dissecting five seconds of bar fight into three pages of kinetic physics",
+      "Minimalist drifter protagonist with zero baggage, no phone, and absolute moral certainty",
+      "Short, punchy, unvarnished sentences driving relentless narrative momentum",
+      "The 'delayed reveal' technique: creating anticipation by withholding the identity of simple objects"
+    ],
+    "source_repositories": [
+      "https://www.leechild.com/",
+      "https://archive.org/search.php?query=lee+child"
+    ]
+  },
+  {
+    "id": "patricia-highsmith",
+    "name": "Patricia Highsmith",
+    "genres": [
+      "Psychological Thriller",
+      "Crime Fiction",
+      "Noir"
+    ],
+    "vibes": [
+      "moral_decay",
+      "sociopathic_intimacy",
+      "claustrophobic_dread"
+    ],
+    "tech_eras": [
+      "mid_20th_century",
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Talented Mr. Ripley",
+      "Strangers on a Train",
+      "The Price of Salt"
+    ],
+    "signature_techniques": [
+      "Protagonist amoral intimacy: anchoring third-person narrative so deeply into a criminal psyche that the reader unconsciously roots for evasion",
+      "The domestic trap: mundane items (cufflinks, hotel keys, forged passports) carrying immense, suffocating stakes",
+      "Slow-burn psychological escalation without melodramatic explosive confrontations",
+      "Subtle social awkwardness and class resentment as the primary engine for homicide"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=patricia+highsmith",
+      "https://openlibrary.org/authors/OL218970A/Patricia_Highsmith"
+    ]
+  },
+  {
+    "id": "jo-nesbo",
+    "name": "Jo Nesbø",
+    "genres": [
+      "Nordic Noir",
+      "Police Procedural",
+      "Crime Thriller"
+    ],
+    "vibes": [
+      "gritty_bleak",
+      "visceral_violence",
+      "melancholic_obsession"
+    ],
+    "tech_eras": [
+      "modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "The Snowman",
+      "The Bat",
+      "The Leopard",
+      "Nemesis"
+    ],
+    "signature_techniques": [
+      "Layered red herrings with asymmetric timeline reveals to subvert standard procedural tropes",
+      "Self-destructive detective archetype whose personal flaws directly compromise crime scene logic",
+      "Visceral, atmospheric Scandinavian winter environments amplifying isolation and existential dread",
+      "Parallel POVs between hunting detective and methodical serial killer"
+    ],
+    "source_repositories": [
+      "https://jonesbo.com/",
+      "https://archive.org/search.php?query=jo+nesbo"
+    ]
+  },
+  {
+    "id": "greg-egan",
+    "name": "Greg Egan",
+    "genres": [
+      "Hard Sci-Fi",
+      "Transhumanism",
+      "Mathematical Speculative"
+    ],
+    "vibes": [
+      "rigorous_intellectual",
+      "ontological_wonder",
+      "pure_physics"
+    ],
+    "tech_eras": [
+      "far_future",
+      "post_singularity"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Permutation City",
+      "Diaspora",
+      "Axiomatic",
+      "Clockwork Rocket"
+    ],
+    "signature_techniques": [
+      "Uncompromising physics-first premise: building entire narratives around non-standard geometries or computational theory",
+      "Cellular automata and substrate-independent consciousness explored with strict mathematical consistency",
+      "Decoupling emotional dilemmas from organic human biology to test ethics in synthetic minds",
+      "Detailed thought-experiment expositions integrated organically through character problem-solving"
+    ],
+    "source_repositories": [
+      "https://www.gregegan.net/",
+      "https://archive.org/search.php?query=greg+egan"
+    ]
+  },
+  {
+    "id": "vernor-vinge",
+    "name": "Vernor Vinge",
+    "genres": [
+      "Hard Sci-Fi",
+      "Space Opera",
+      "Cyberpunk"
+    ],
+    "vibes": [
+      "deep_time",
+      "singularity_scale",
+      "technological_wonder"
+    ],
+    "tech_eras": [
+      "near_future",
+      "far_future"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "A Fire Upon the Deep",
+      "A Deepness in the Sky",
+      "Rainbows End",
+      "True Names"
+    ],
+    "signature_techniques": [
+      "Zones of Thought cosmology: physical laws of computation altering as distance from galactic core increases",
+      "Group-mind alien biology (Tines) portrayed with believable sensory coordination and pack mechanics",
+      "AR and ubiquitous computing predictive worldbuilding (Rainbows End as the blueprint for wearable tech)",
+      "Sub-light relativistic space naval strategy across millennial timelines"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=vernor+vinge",
+      "https://openlibrary.org/authors/OL218520A/Vernor_Vinge"
+    ]
+  },
+  {
+    "id": "octavia-butler",
+    "name": "Octavia E. Butler",
+    "genres": [
+      "Speculative Fiction",
+      "Dystopian",
+      "Afrofuturism"
+    ],
+    "vibes": [
+      "visceral_survival",
+      "symbiotic_unease",
+      "prophetic_clarity"
+    ],
+    "tech_eras": [
+      "near_future",
+      "historical_19th_century",
+      "post_apocalyptic"
+    ],
+    "magic_hardness": "soft",
+    "key_works": [
+      "Parable of the Sower",
+      "Kindred",
+      "Dawn (Xenogenesis)",
+      "Fledgling"
+    ],
+    "signature_techniques": [
+      "Hyperempathy syndrome: anchoring high-concept sci-fi in debilitating somatic connection to others' pain",
+      "Hierarchical trade-offs in alien symbiosis: forced genetic synthesis without binary villainy",
+      "Unsparing depiction of social collapse and community-building grounded in botanical and survival skills",
+      "Temporal displacement with unbuffered historical trauma"
+    ],
+    "source_repositories": [
+      "https://octaviabutler.com/",
+      "https://archive.org/search.php?query=octavia+butler"
+    ]
+  },
+  {
+    "id": "stanislaw-lem",
+    "name": "Stanisław Lem",
+    "genres": [
+      "Philosophical Sci-Fi",
+      "Hard Sci-Fi",
+      "Satire"
+    ],
+    "vibes": [
+      "epistemic_humility",
+      "inscrutable_alien",
+      "ironic_wit"
+    ],
+    "tech_eras": [
+      "far_future",
+      "mid_20th_century"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Solaris",
+      "The Cyberiad",
+      "Fiasco",
+      "His Master's Voice"
+    ],
+    "signature_techniques": [
+      "The radically unknowable alien: complete rejection of anthropomorphic contact tropes (sentient plasma ocean)",
+      "Mock-scientific literature reviews and pseudo-academic historiography embedded within the narrative",
+      "Epistemological critique of scientific hubris through communication failure",
+      "Philosophical fables featuring robotic constructors with Voltairean irony"
+    ],
+    "source_repositories": [
+      "https://english.lem.pl/",
+      "https://archive.org/search.php?query=stanislaw+lem"
+    ]
+  },
+  {
+    "id": "ray-bradbury",
+    "name": "Ray Bradbury",
+    "genres": [
+      "Speculative Fiction",
+      "Poetic Sci-Fi",
+      "Dark Fantasy"
+    ],
+    "vibes": [
+      "nostalgic_lyricism",
+      "sensory_wonder",
+      "haunting_melancholy"
+    ],
+    "tech_eras": [
+      "retro_future",
+      "mid_20th_century"
+    ],
+    "magic_hardness": "soft",
+    "key_works": [
+      "Fahrenheit 451",
+      "The Martian Chronicles",
+      "Something Wicked This Way Comes",
+      "Dandelion Wine"
+    ],
+    "signature_techniques": [
+      "Incandescent metaphor: transforming mechanical apparatus into mythological and biological entities",
+      "Sensory-saturated impressionism (the taste of October, dandelion wine as bottled summer)",
+      "Epitaph-like vignettes linked through shared thematic atmosphere rather than continuous plot",
+      "The horror of automated indifference (the house continuing to run after its inhabitants are ashes)"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=ray+bradbury",
+      "https://openlibrary.org/authors/OL2623727A/Ray_Bradbury"
+    ]
+  },
+  {
+    "id": "arthur-c-clarke",
+    "name": "Arthur C. Clarke",
+    "genres": [
+      "Hard Sci-Fi",
+      "Cosmic Speculation",
+      "Adventure"
+    ],
+    "vibes": [
+      "monumental_awe",
+      "scientific_optimism",
+      "cosmic_vastness"
+    ],
+    "tech_eras": [
+      "near_future",
+      "far_future"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "2001: A Space Odyssey",
+      "Rendezvous with Rama",
+      "Childhood's End",
+      "The City and the Stars"
+    ],
+    "signature_techniques": [
+      "Encounter with the incomprehensibly ancient artifact inspected with engineering precision",
+      "Clarke's Third Law dramatized: advanced technology rendered functionally indistinguishable from divinity",
+      "Objective, detached narrative tone that lets monumental scale speak for itself without melodrama",
+      "Rigorous orbital mechanics and communication latency integrated into plot suspense"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=arthur+c+clarke",
+      "https://openlibrary.org/authors/OL2622765A/Arthur_C._Clarke"
+    ]
+  },
+  {
+    "id": "guy-gavriel-kay",
+    "name": "Guy Gavriel Kay",
+    "genres": [
+      "Historical Fantasy",
+      "Epic Fantasy",
+      "Literary Fiction"
+    ],
+    "vibes": [
+      "lyrical_melancholy",
+      "historic_elegance",
+      "bittersweet_triumph"
+    ],
+    "tech_eras": [
+      "medieval",
+      "renaissance",
+      "late_antiquity"
+    ],
+    "magic_hardness": "soft",
+    "key_works": [
+      "Tigana",
+      "The Lions of Al-Rassan",
+      "The Sarantine Mosaic",
+      "Under Heaven"
+    ],
+    "signature_techniques": [
+      "Quarter-turn of the historical wheel: mirroring real history with subtle fantasy veils",
+      "The tapestry perspective: tracing how minor decisions ripple outward to seal the fates of empires",
+      "Elegaic cadence that mourns lost cultures even as they stand at their absolute zenith",
+      "Sympathetic dualities: pitting honorable men and women on opposing sides of unavoidable historical currents"
+    ],
+    "source_repositories": [
+      "https://brightweavings.com/",
+      "https://archive.org/search.php?query=guy+gavriel+kay"
+    ]
+  },
+  {
+    "id": "terry-pratchett",
+    "name": "Terry Pratchett",
+    "genres": [
+      "Satirical Fantasy",
+      "High Fantasy",
+      "Humorous"
+    ],
+    "vibes": [
+      "subversive_humanism",
+      "razor_wit",
+      "affectionate_satire"
+    ],
+    "tech_eras": [
+      "victorian_fantasy",
+      "early_industrial",
+      "medieval"
+    ],
+    "magic_hardness": "soft_satirical",
+    "key_works": [
+      "Guards! Guards!",
+      "Small Gods",
+      "Night Watch",
+      "Going Postal"
+    ],
+    "signature_techniques": [
+      "Narrative footnotes as comic counterpoint, worldbuilding depth, and philosophical aside",
+      "Boots theory of socioeconomic unfairness: grounding high fantasy institutions in working-class economic realities",
+      "Anger channeled into incandescent empathy: using absurd comedic fantasy to deliver devastating humanistic moral clarity",
+      "Inversion of mythical tropes through relentless logistical common sense"
+    ],
+    "source_repositories": [
+      "https://www.terrypratchettbooks.com/",
+      "https://archive.org/search.php?query=terry+pratchett"
+    ]
+  },
+  {
+    "id": "susanna-clarke",
+    "name": "Susanna Clarke",
+    "genres": [
+      "Gaslamp Fantasy",
+      "Historical Fantasy",
+      "Literary"
+    ],
+    "vibes": [
+      "scholarly_whimsy",
+      "antiquarian_elegance",
+      "eerie_fey"
+    ],
+    "tech_eras": [
+      "regency_early_19th_century"
+    ],
+    "magic_hardness": "semi_hard",
+    "key_works": [
+      "Jonathan Strange & Mr Norrell",
+      "Piranesi",
+      "The Ladies of Grace Adieu"
+    ],
+    "signature_techniques": [
+      "Pastiche of early 19th-century prose with fictitious scholarly footnotes on fairy lore",
+      "The uncanny fairyland: portraying magic not as flashy spells but as dangerous, amoral enchantment",
+      "Architectural solipsism: infinite marble halls and tides imprisoned inside vestibules",
+      "Dry bureaucratic rivalries between academic theoreticians and pragmatic practitioners of sorcery"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=susanna+clarke",
+      "https://openlibrary.org/authors/OL1393668A/Susanna_Clarke"
+    ]
+  },
+  {
+    "id": "roger-zelazny",
+    "name": "Roger Zelazny",
+    "genres": [
+      "Mythic Fantasy",
+      "Science Fantasy",
+      "Urban Fantasy"
+    ],
+    "vibes": [
+      "mythic_cool",
+      "cynical_poetry",
+      "cosmic_swashbuckling"
+    ],
+    "tech_eras": [
+      "multiverse",
+      "mythological_timeless",
+      "mid_20th_century"
+    ],
+    "magic_hardness": "semi_hard",
+    "key_works": [
+      "Nine Princes in Amber",
+      "Lord of Light",
+      "Creatures of Light and Darkness",
+      "A Night in the Lonesome October"
+    ],
+    "signature_techniques": [
+      "Pulp hardboiled dialogue fused with grand mythic elevation and classical cadence",
+      "Technological deification: rendering pantheons as post-human immortals manipulating energy via machinery",
+      "Shadow-shifting traversal: manipulating reality by adding or subtracting sensory details until destination is reached",
+      "First-person cynical narrator holding immense cosmic royalty beneath a world-weary cigarette drag"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=roger+zelazny",
+      "https://openlibrary.org/authors/OL2624443A/Roger_Zelazny"
+    ]
+  },
+  {
+    "id": "andrzej-sapkowski",
+    "name": "Andrzej Sapkowski",
+    "genres": [
+      "Dark Fantasy",
+      "Folkloric Fantasy",
+      "Sword & Sorcery"
+    ],
+    "vibes": [
+      "ironic_cynicism",
+      "slavic_folklore",
+      "moral_relativism"
+    ],
+    "tech_eras": [
+      "late_medieval"
+    ],
+    "magic_hardness": "semi_soft",
+    "key_works": [
+      "The Last Wish",
+      "Blood of Elves",
+      "Sword of Destiny",
+      "The Lady of the Lake"
+    ],
+    "signature_techniques": [
+      "Subversion of classic European fairy tales through gritty, transactional economics and monster-ecology pragmatism",
+      "The lesser evil paradox: protagonist striving for neutrality while inexorably forced into consequential moral failure",
+      "Lively, colloquial, bantering dialogue cutting through melodramatic high fantasy pomp",
+      "Anachronistic political terminology juxtaposed against feudal superstitions"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=andrzej+sapkowski",
+      "https://openlibrary.org/authors/OL6966683A/Andrzej_Sapkowski"
+    ]
+  },
+  {
+    "id": "michael-moorcock",
+    "name": "Michael Moorcock",
+    "genres": [
+      "Sword & Sorcery",
+      "Dark Fantasy",
+      "Multiverse Speculative"
+    ],
+    "vibes": [
+      "tragic_doom",
+      "baroque_decadence",
+      "multiverse_entropy"
+    ],
+    "tech_eras": [
+      "mythic_dying_earth",
+      "multiverse"
+    ],
+    "magic_hardness": "soft",
+    "key_works": [
+      "Elric of Melniboné",
+      "Stormbringer",
+      "The Knight of the Swords",
+      "Behold the Man"
+    ],
+    "signature_techniques": [
+      "Anti-Conan archetype: sickly, introspective, drug-dependent albino emperor wielding a parasitic soul-eating sword",
+      "Cosmic struggle between Law and Chaos replacing traditional binary Good and Evil",
+      "The Eternal Champion reincarnation cycle linking disparate heroes across alternate planes",
+      "Baroque sensory overload describing ancient, decadent empires collapsing under cosmic entropy"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=michael+moorcock",
+      "https://openlibrary.org/authors/OL218683A/Michael_Moorcock"
+    ]
+  },
+  {
+    "id": "pirateaba",
+    "name": "pirateaba",
+    "genres": [
+      "Progression Fantasy",
+      "LitRPG",
+      "Epic Fantasy",
+      "Slice of Life"
+    ],
+    "vibes": [
+      "emotional_maximalism",
+      "world_density",
+      "found_family_warmth"
+    ],
+    "tech_eras": [
+      "medieval_fantasy"
+    ],
+    "magic_hardness": "progression_levels",
+    "key_works": [
+      "The Wandering Inn: Volume 1",
+      "The Wandering Inn: Volume 2",
+      "The General of Izril"
+    ],
+    "signature_techniques": [
+      "Slice-of-life pacing suddenly colliding with cataclysmic war, turning mundane hospitality into sanctuary defense",
+      "Massive ensemble perspective tapestry: giving named interiority to every goblin, soldier, and inn guest",
+      "Levels and Skills earned not through grinding, but through emotional breakdown, sacrifice, and character definition",
+      "Immense wordcount velocity with unhurried conversational cadence building monumental emotional payoffs"
+    ],
+    "source_repositories": [
+      "https://wanderinginn.com/",
+      "https://archive.org/search.php?query=pirateaba"
+    ]
+  },
+  {
+    "id": "matt-dinniman",
+    "name": "Matt Dinniman",
+    "genres": [
+      "LitRPG",
+      "Dystopian Sci-Fi",
+      "Dark Comedy"
+    ],
+    "vibes": [
+      "kinetic_absurdity",
+      "visceral_rage",
+      "indomitable_defiance"
+    ],
+    "tech_eras": [
+      "modern_collapsing_into_alien_dungeon"
+    ],
+    "magic_hardness": "system_apocalypse",
+    "key_works": [
+      "Dungeon Crawler Carl",
+      "Carl's Doomsday Scenario",
+      "The Dungeon Anarchist's Cookbook"
+    ],
+    "signature_techniques": [
+      "Weaponized absurdity: juxtaposing slapstick comedic items with genuine body horror and trauma",
+      "The Intergalactic Reality Show framing: game mechanics driven by sadistic viewership ratings and corporate sponsorships",
+      "Engineered explosive chain reactions: solving impossible dungeon bosses through unorthodox chemistry and environmental traps",
+      "Undercurrent of righteous working-class fury against corrupt systemic overseers"
+    ],
+    "source_repositories": [
+      "https://mattdinniman.com/",
+      "https://royalroad.com/profile/138543",
+      "https://archive.org/search.php?query=matt+dinniman"
+    ]
+  },
+  {
+    "id": "alexander-wales",
+    "name": "Alexander Wales",
+    "genres": [
+      "Rational Fiction",
+      "Progression Fantasy",
+      "LitRPG"
+    ],
+    "vibes": [
+      "hyper_analytical",
+      "philosophical_rigor",
+      "deconstructive_meta"
+    ],
+    "tech_eras": [
+      "magical_renaissance",
+      "multiverse"
+    ],
+    "magic_hardness": "ultra_hard_rational",
+    "key_works": [
+      "Worth the Candle",
+      "This Used to be About Dungeons",
+      "The Metropolitan Man"
+    ],
+    "signature_techniques": [
+      "Rational deconstruction: testing game systems and worldbuilding logic against economic arbitrage and sociological reality",
+      "Meta-narrative self-awareness: characters analyzing their own narrative arcs and trope obligations as existential traps",
+      "Hard magic optimization: treating magic systems like engineering problems with explicit constraints and exploit vectors",
+      "Unflinching examination of trauma, grief, and tabletop roleplaying psychology"
+    ],
+    "source_repositories": [
+      "https://archiveofourown.org/users/AlexanderWales",
+      "https://royalroad.com/fiction/25137/worth-the-candle"
+    ]
+  },
+  {
+    "id": "thomas-ligotti",
+    "name": "Thomas Ligotti",
+    "genres": [
+      "Cosmic Horror",
+      "Weird Fiction",
+      "Philosophical Horror"
+    ],
+    "vibes": [
+      "existential_nihilism",
+      "nightmarish_delusion",
+      "decaying_industrial"
+    ],
+    "tech_eras": [
+      "late_20th_century",
+      "decaying_timeless"
+    ],
+    "magic_hardness": "cosmic_irrational",
+    "key_works": [
+      "Teatro Grottesco",
+      "Songs of a Dead Dreamer",
+      "The Conspiracy Against the Human Race"
+    ],
+    "signature_techniques": [
+      "Puppet and mannequin ontologies: reality exposed as a cheap, hollow, mechanically animated puppet show",
+      "Corporate and bureaucratic surrealism: mundane decaying industrial towns where sanity dissolves into senseless rituals",
+      "Unreliable, clinically depressed narrators recounting horrors that may simply be the unfiltered truth of existence",
+      "Hypnotic, repetitious sentence rhythms creating uncanny claustrophobia"
+    ],
+    "source_repositories": [
+      "https://www.ligotti.net/",
+      "https://archive.org/search.php?query=thomas+ligotti"
+    ]
+  },
+  {
+    "id": "richard-matheson",
+    "name": "Richard Matheson",
+    "genres": [
+      "Horror",
+      "Sci-Fi Thriller",
+      "Psychological Suspense"
+    ],
+    "vibes": [
+      "visceral_isolation",
+      "lean_pacing",
+      "existential_reversal"
+    ],
+    "tech_eras": [
+      "mid_20th_century",
+      "suburban_modern"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "I Am Legend",
+      "The Shrinking Man",
+      "Hell House",
+      "Duel"
+    ],
+    "signature_techniques": [
+      "The ultimate perspective reversal: the protagonist realizing he is the legendary monster of the new world",
+      "Everyday suburban environments transforming into terrifying claustrophobic gauntlets",
+      "Lean, muscular, propulsive sentence structure stripped of all decorative fat",
+      "Rationalization of supernatural phenomena through biological or psychological mechanisms"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=richard+matheson",
+      "https://openlibrary.org/authors/OL218765A/Richard_Matheson"
+    ]
+  },
+  {
+    "id": "kurt-vonnegut",
+    "name": "Kurt Vonnegut",
+    "genres": [
+      "Satirical Sci-Fi",
+      "Postmodern",
+      "Humanist Fiction"
+    ],
+    "vibes": [
+      "ironic_fatalism",
+      "profound_gentleness",
+      "subversive_wit"
+    ],
+    "tech_eras": [
+      "mid_20th_century",
+      "non_linear_temporal"
+    ],
+    "magic_hardness": "soft",
+    "key_works": [
+      "Slaughterhouse-Five",
+      "Cat's Cradle",
+      "Sirens of Titan",
+      "Breakfast of Champions"
+    ],
+    "signature_techniques": [
+      "Unstuck in time non-linear chronology: diffusing traumatic tension through matter-of-fact temporal omniscient looping",
+      "The recurring tragic refrain ('So it goes') acknowledging mortality without sentimental bathos",
+      "Simple, deceptively childlike prose delivering devastating indictments of warfare and technological hubris",
+      "Invention of satirical philosophies and mythologies (Bokononism, ice-nine, Tralfamadorians)"
+    ],
+    "source_repositories": [
+      "https://archive.org/search.php?query=kurt+vonnegut",
+      "https://openlibrary.org/authors/OL2622919A/Kurt_Vonnegut"
+    ]
+  },
+  {
+    "id": "virginia-woolf",
+    "name": "Virginia Woolf",
+    "genres": [
+      "Literary Modernism",
+      "Stream of Consciousness",
+      "Psychological Realism"
+    ],
+    "vibes": [
+      "luminous_interiority",
+      "temporal_fluidity",
+      "impressionistic_depth"
+    ],
+    "tech_eras": [
+      "early_20th_century",
+      "edwardian"
+    ],
+    "magic_hardness": "none_mundane",
+    "key_works": [
+      "Mrs. Dalloway",
+      "To the Lighthouse",
+      "The Waves",
+      "Orlando"
+    ],
+    "signature_techniques": [
+      "Free indirect discourse gliding seamlessly between multiple characters' internal cognitive associations",
+      "Moments of Being: crystallizing an entire lifetime's philosophical weight into a fleeting sensory observation",
+      "Fluid compression and expansion of subjective time versus objective mechanical clocks",
+      "Rhythmic, musical prose cadence capturing the subterranean emotional currents of domestic life"
+    ],
+    "source_repositories": [
+      "https://standardebooks.org/ebooks/virginia-woolf",
+      "https://www.gutenberg.org/ebooks/author/89"
+    ]
+  }
+]

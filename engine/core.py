@@ -3,10 +3,10 @@ AI Novel Engine - Core Orchestrator
 Author: Jaswanth1902
 Repository: Jaswanth1902/AI_Novel_Engine
 
-Coordinates the 5-stage pipeline:
-1. Director (Scene Contract)
+Coordinates the 5-stage pipeline with Graph-Powered Craft Injection:
+1. Director (Scene Contract + Master Author Craft Injection)
 2. Actor (Epistemic Envelopes)
-3. Stylist (Craft & Calibration)
+3. Stylist (Craft Calibration & Gardner Continuum)
 4. Renderer (Prose Output)
 5. Gatekeeper (State Delta & Linting)
 """
@@ -19,6 +19,8 @@ from engine.stylist import Stylist
 from engine.gatekeeper import Gatekeeper
 from engine.memory import StoryMemory
 from engine.linter import NovelLinter
+from engine.attribute_extractor import AttributeExtractor, ExtractedAttributes
+from engine.graph_knowledge import GraphKnowledgebase
 
 
 class NovelEngine:
@@ -30,6 +32,30 @@ class NovelEngine:
         self.stylist = Stylist()
         self.gatekeeper = Gatekeeper(self.memory)
         self.linter = NovelLinter()
+        self.extractor = AttributeExtractor()
+        self.graph = GraphKnowledgebase(os.path.join(self.workspace_root, "state", "author_knowledge_graph.sqlite"))
+
+    def match_craft(self, text: str, top_k: int = 3, overrides: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """Extracts attributes and generates craft injection from 100 authors graph."""
+        attrs: ExtractedAttributes = self.extractor.extract(text, user_overrides=overrides)
+        return self.graph.generate_craft_injection(attrs, top_k=top_k)
+
+    def plan_scene_from_notes(
+        self,
+        chapter: int,
+        title: str,
+        notes: str,
+        pov: str = "Jaswanth",
+        top_k: int = 3
+    ) -> Dict[str, Any]:
+        """Plans a Stage 1 Scene Contract directly from raw notes using graph matching."""
+        return self.director.compile_from_user_notes(
+            chapter=chapter,
+            title=title,
+            user_notes=notes,
+            pov=pov,
+            top_k_authors=top_k,
+        )
 
     def audit_chapter(self, filepath: str) -> Dict[str, Any]:
         return self.linter.lint_file(filepath)

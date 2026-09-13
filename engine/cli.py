@@ -9,8 +9,11 @@ import sys
 import os
 import glob
 import re
+import json
 from engine.core import NovelEngine
 from engine.linter import NovelLinter
+from engine.attribute_extractor import AttributeExtractor
+from engine.graph_knowledge import GraphKnowledgebase
 
 
 def cmd_audit(args):
@@ -121,6 +124,107 @@ def cmd_stats(args):
     print("========================================================\n")
 
 
+def cmd_build_graph(args):
+    graph = GraphKnowledgebase(auto_build=False)
+    json_path = args.json or os.path.join(os.path.dirname(__file__), "..", "data", "authors_100.json")
+    print(f"Building Graph Knowledgebase from {json_path}...")
+    res = graph.build_graph_from_json(json_path)
+    print(f"Success! Graph constructed: {res['nodes']} nodes, {res['edges']} edges.")
+
+
+def cmd_graph_stats(args):
+    graph = GraphKnowledgebase()
+    stats = graph.get_graph_stats()
+
+    print(f"\n========================================================")
+    print(f"  AI Novel Engine: Graph Knowledgebase Statistics")
+    print(f"========================================================")
+    print(f"Total Graph Nodes: {stats['total_nodes']}")
+    print(f"Total Graph Edges: {stats['total_edges']}")
+    print("--------------------------------------------------------")
+    print("Nodes Distribution:")
+    for node_type, count in sorted(stats["nodes_by_type"].items()):
+        print(f"  - {node_type:<18}: {count:>4}")
+    print("--------------------------------------------------------")
+    print("Edges Distribution:")
+    for rel, count in sorted(stats["edges_by_relation"].items()):
+        print(f"  - {rel:<18}: {count:>4}")
+    print("========================================================\n")
+
+
+def cmd_match(args):
+    text = args.text
+    if args.file and os.path.exists(args.file):
+        with open(args.file, "r", encoding="utf-8") as f:
+            text = f.read()
+
+    if not text:
+        print("Error: Provide --text or --file to match.")
+        sys.exit(1)
+
+    extractor = AttributeExtractor()
+    graph = GraphKnowledgebase()
+
+    overrides = {}
+    if args.genre:
+        overrides["genre"] = args.genre
+    if args.era:
+        overrides["era"] = args.era
+
+    attrs = extractor.extract(text, user_overrides=overrides)
+    bundle = graph.generate_craft_injection(attrs, top_k=args.top)
+
+    print(f"\n========================================================")
+    print(f"  Narrative Attribute Extraction & Graph Match")
+    print(f"========================================================")
+    print(f"Primary Genre : {attrs.primary_genre}")
+    print(f"Secondary     : {', '.join(attrs.secondary_genres) if attrs.secondary_genres else 'None'}")
+    print(f"Vibes         : {', '.join(attrs.vibes)}")
+    print(f"Tech Era      : {attrs.tech_era}")
+    print(f"Magic System  : {attrs.magic_hardness}")
+    print(f"Pacing        : {attrs.pacing}")
+    print(f"Confidence    : {attrs.confidence:.2f}")
+    print("--------------------------------------------------------")
+    print(f"Top {len(bundle['top_reference_authors'])} Reference Authors Matched:")
+    for author in bundle["raw_matches"]:
+        print(f"  * {author['name']} (Score: {author['score']})")
+        print(f"    Reasons: {', '.join(author['match_reasons'])}")
+        print(f"    Works  : {', '.join(author['reference_works'][:2])}")
+    print("--------------------------------------------------------")
+    print("Curated Craft Directives Injected:")
+    for tech in bundle["curated_craft_techniques"]:
+        print(f"  - {tech}")
+    print("--------------------------------------------------------")
+    print("Source Repositories to Pull Works/Style:")
+    for repo in bundle["source_repositories"]:
+        print(f"  [Link] {repo}")
+    print("========================================================\n")
+
+
+def cmd_plan(args):
+    engine = NovelEngine()
+    text = args.notes
+    if args.file and os.path.exists(args.file):
+        with open(args.file, "r", encoding="utf-8") as f:
+            text = f.read()
+
+    if not text:
+        print("Error: Provide --notes or --file for scene planning.")
+        sys.exit(1)
+
+    contract = engine.plan_scene_from_notes(
+        chapter=args.chapter,
+        title=args.title,
+        notes=text,
+        pov=args.pov,
+        top_k=args.top,
+    )
+
+    yaml_str = engine.director.export_contract_yaml(contract)
+    print(f"\n# Compiled Stage 1 Scene Contract with Graph Craft Injection:\n")
+    print(yaml_str)
+
+
 def main():
     parser = argparse.ArgumentParser(description="AI Novel Engine CLI - Developed for Jaswanth1902")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -141,6 +245,34 @@ def main():
     stats_parser = subparsers.add_parser("stats", help="Print manuscript metrics and word count breakdown")
     stats_parser.add_argument("--dir", default="output", help="Output directory")
     stats_parser.set_defaults(func=cmd_stats)
+
+    # build-graph
+    bg_parser = subparsers.add_parser("build-graph", help="Rebuild SQLite knowledge graph from 100 authors JSON")
+    bg_parser.add_argument("--json", default=None, help="Path to authors JSON")
+    bg_parser.set_defaults(func=cmd_build_graph)
+
+    # graph-stats
+    gs_parser = subparsers.add_parser("graph-stats", help="Print knowledge graph metrics and distribution")
+    gs_parser.set_defaults(func=cmd_graph_stats)
+
+    # match
+    match_parser = subparsers.add_parser("match", help="Match user narrative brief against 100 authors graph")
+    match_parser.add_argument("--text", default=None, help="Raw user story pitch / scene brief")
+    match_parser.add_argument("--file", default=None, help="Path to text/markdown notes file")
+    match_parser.add_argument("--genre", default=None, help="Explicit genre override")
+    match_parser.add_argument("--era", default=None, help="Explicit era override")
+    match_parser.add_argument("--top", type=int, default=3, help="Number of matching authors to retrieve")
+    match_parser.set_defaults(func=cmd_match)
+
+    # plan
+    plan_parser = subparsers.add_parser("plan", help="Compile a Stage 1 Scene Contract with graph craft injection")
+    plan_parser.add_argument("--chapter", type=int, default=37, help="Chapter number")
+    plan_parser.add_argument("--title", default="The Silent Convergence", help="Chapter title")
+    plan_parser.add_argument("--notes", default=None, help="Raw notes or synopsis")
+    plan_parser.add_argument("--file", default=None, help="Path to notes file")
+    plan_parser.add_argument("--pov", default="Jaswanth", help="POV character name")
+    plan_parser.add_argument("--top", type=int, default=3, help="Top authors to inject")
+    plan_parser.set_defaults(func=cmd_plan)
 
     args = parser.parse_args()
     args.func(args)

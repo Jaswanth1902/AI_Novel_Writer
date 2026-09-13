@@ -60,12 +60,14 @@ The engine dynamically recalibrates its stylistic parameters based on the target
 | **Cyberpunk** | Individual autonomy vs corporate hegemony | Kinetic, syncopated, rhythmic | Ozone, wet asphalt, scorched synthetic rubber, neon flicker | Romanticizing poverty, pure good vs evil mega-corps |
 | **Progression / Xianxia** | Willpower breaking cosmic constraints | Ascending intensity, martial focus | Core resonance, marrow heat, crystalline frost, jade | Instant breakthroughs without physical toll, endless arrogant young masters |
 | **Mystery / Noir** | Information asymmetry & moral compromise | Laconic, atmospheric, sharp | Stale tobacco, rain on glass, wet trench coats, sour chicory | Omniscient detectives, clues withheld from reader |
+| **Cosmic / Weird Horror** | Fragility of human reason vs vast uncaring cosmos | Creeping, suffocating, claustrophobic | Damp brine, rotting kelp, sulfur, cold cellar stone, incense | Tame comprehensible monsters, triumphant gun-based resolutions |
+| **Literary Realism** | Individual regret vs unlived life | Luminous, reflective, fluid | Dust in sunlight, creaking floorboards, drying paint | Melodramatic explosive speeches, forced neat resolutions |
 
 ---
 
 ## 3. Vibe & Atmospheric Calibration
 
-The Stylist configures four emotional and tonal axes:
+The Stylist configures emotional and tonal axes dynamically:
 
 ```yaml
 vibe_profiles:
@@ -118,7 +120,7 @@ The Linter enforces strict chronological vocabularies. Using an out-of-era word 
 
 ### Tier 5: Modern / Cyberpunk / Far-Future
 - **Permitted**: Fiber optics, sub-orbital shuttles, synthetic neural mesh, vacuum chambers, plasma conduits, silicon.
-- **Strictly Banned**: Archaic feudal deference without satire, fantasy tropes without technological grounding.
+- **Strictly Banned**: Feudal deference without satirical context, unexplained supernatural phenomena without physics grounding.
 
 ---
 
@@ -128,3 +130,43 @@ The following words and expressions are permanently blacklisted across all genre
 1. **Faux-Archaic Crutches**: `scriptorium`, `portico`, `visage`, `countenance`, `ebon`, `eldritch`.
 2. **AI Telling Cliches**: `testament to`, `tapestry of`, `delve`, `beacon of`, `symphony of`, `shivers down spine`, `cacophony`, `labyrinthine`, `a dance of`, `intertwined`, `palpable tension`, `steely resolve`.
 3. **Filter Verbs**: `he felt`, `she felt`, `felt like`, `he noticed`, `she noticed`, `he wondered`, `she realized`, `he decided`.
+
+---
+
+## 6. The 100 Authors Master Knowledge Graph
+
+The engine maintains a curated SQLite graph database (`state/author_knowledge_graph.sqlite`) containing:
+- **100 Curated Authors**: Spanning classic, modern, literary, speculative, and web novel masters.
+- **400 Signature Craft Techniques**: Concrete, actionable craft directives indexed per author.
+- **287 Reference Works**: Canonical novels, sagas, and collections.
+- **140 Unique Genres & Subgenres**.
+- **291 Tonal Vibes & Atmospheres**.
+- **34 Technological Eras**.
+- **172 Verified Public Text Repositories & Study Archives**: Standard Ebooks, Project Gutenberg, Royal Road, Wuxiaworld, Internet Archive, and official author research logs.
+
+### Graph Ontology & Edge Relations
+```mermaid
+graph TD
+    Author["Author Node (100)"] -->|WROTE| Work["Work Node (287)"]
+    Author -->|EXCELS_IN| Genre["Genre Node (140)"]
+    Author -->|EVOKES_VIBE| Vibe["Vibe Node (291)"]
+    Author -->|OPERATES_IN| Era["Tech Era Node (34)"]
+    Author -->|MASTERS| Tech["Craft Technique (400)"]
+    Work -->|IN_GENRE| Genre
+```
+
+---
+
+## 7. Graph-Powered Craft Injection Workflow
+
+When a user submits scene notes or chapter prompts, the pipeline executes a deterministic 3-step synthesis:
+
+1. **Attribute Extraction (`AttributeExtractor`)**:
+   - Parses the input text across lexical clusters to extract primary/secondary genres, tonal vibes, technological era, magic hardness, and pacing cadence.
+2. **Graph Affinity Traversal (`GraphKnowledgebase`)**:
+   - Walks graph edges with weighted priority:
+     $$\text{Score} = (12.0 \times \text{Genre}) + (4.0 \times \text{Secondary}) + (3.0 \times \text{Vibe}) + (2.0 \times \text{Era}) + (3.0 \times \text{Magic})$$
+   - Identifies the Top $K$ closest literary masters and extracts their reference books and signature craft techniques.
+3. **Contract & Prose Injection (`Director` & `Stylist`)**:
+   - Injects the matched techniques into the Stage 1 YAML Scene Contract under `craft_injection`.
+   - Incorporates the techniques directly into Stage 3 Stylist rules, ensuring the prose actively mirrors the master authors' sensory, structural, and syntactic strengths while strictly adhering to all quality gate invariants.
