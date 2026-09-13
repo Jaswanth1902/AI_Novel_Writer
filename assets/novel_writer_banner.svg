@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <radialGradient id="vignette-novel" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1C1612" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#0F0C0A" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#080605" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="gold-novel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8CA7A"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C7932"/>
+    </linearGradient>
+    <style>
+      .serif-title { font-family: 'Cinzel', 'Cormorant Garamond', 'Didot', 'Playfair Display', 'Baskerville', 'Georgia', serif; font-weight: 400; }
+      .serif-sub { font-family: 'Cormorant Garamond', 'Baskerville', 'Georgia', serif; font-style: italic; }
+      .mono-tech { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" fill="#080605"/>
+  <rect width="1200" height="420" fill="url(#vignette-novel)"/>
+
+  <!-- Architectural Outer Border -->
+  <rect x="24" y="24" width="1152" height="372" fill="none" stroke="#C5A059" stroke-width="0.75" stroke-opacity="0.35"/>
+  <rect x="28" y="28" width="1144" height="364" fill="none" stroke="#C5A059" stroke-width="0.5" stroke-dasharray="4,6" stroke-opacity="0.2"/>
+
+  <!-- Corner Rosettes -->
+  <g stroke="#C5A059" stroke-width="0.8" opacity="0.6">
+    <path d="M20 24 h16 M24 20 v16"/>
+    <path d="M1180 24 h-16 M1176 20 v16"/>
+    <path d="M20 396 h16 M24 392 v16"/>
+    <path d="M1180 396 h-16 M1176 392 v16"/>
+    <circle cx="24" cy="24" r="3" fill="none"/>
+    <circle cx="1176" cy="24" r="3" fill="none"/>
+    <circle cx="24" cy="396" r="3" fill="none"/>
+    <circle cx="1176" cy="396" r="3" fill="none"/>
+  </g>
+
+  <!-- Da Vinci Narrative Codex & Kinetic Quill (Left Visual Motif) -->
+  <g transform="translate(225, 210)" stroke="#C5A059" fill="none">
+    <!-- Concentric Dramatic Arc Blueprint -->
+    <g stroke-width="0.4" stroke-opacity="0.15" stroke-dasharray="2,4">
+      <circle cx="0" cy="0" r="165"/>
+      <circle cx="0" cy="0" r="125"/>
+      <circle cx="0" cy="0" r="85"/>
+      <circle cx="0" cy="0" r="40"/>
+      <line x1="-180" y1="0" x2="180" y2="0"/>
+      <line x1="0" y1="-160" x2="0" y2="160"/>
+    </g>
+
+    <!-- Gardner Psychic Distance Continuum Axis -->
+    <g stroke-width="0.6" stroke-opacity="0.4">
+      <line x1="-140" y1="90" x2="140" y2="90"/>
+      <line x1="-140" y1="85" x2="-140" y2="95"/>
+      <line x1="-70" y1="87" x2="-70" y2="93"/>
+      <line x1="0" y1="85" x2="0" y2="95"/>
+      <line x1="70" y1="87" x2="70" y2="93"/>
+      <line x1="140" y1="85" x2="140" y2="95"/>
+      <text x="-140" y="105" fill="#C5A059" font-size="7" text-anchor="middle" class="mono-tech">D1 CINEMATIC</text>
+      <text x="0" y="105" fill="#C5A059" font-size="7" text-anchor="middle" class="mono-tech">D3 COGNITIVE</text>
+      <text x="140" y="105" fill="#C5A059" font-size="7" text-anchor="middle" class="mono-tech">D5 SENSORY</text>
+    </g>
+
+    <!-- Golden Ratio Dramatic Tension Spiral Arc -->
+    <path d="M0,0 A15,15 0 0,1 15,15 A30,30 0 0,1 -15,45 A60,60 0 0,1 -75,-15 A110,110 0 0,1 35,-110 A160,160 0 0,1 150,50" 
+          stroke="url(#gold-novel)" stroke-width="1.2" stroke-opacity="0.65" stroke-dasharray="3,3"/>
+
+    <!-- Renaissance Quill Nib & Stroke -->
+    <g stroke="url(#gold-novel)" stroke-width="1.1" stroke-linecap="round">
+      <!-- Quill Shaft -->
+      <path d="M-60,-130 Q0,-60 40,20 L32,28 Q-8,-52 -68,-122 Z" fill="#14110E" fill-opacity="0.85"/>
+      <!-- Nib Point -->
+      <polygon points="40,20 48,36 32,28" fill="#E8CA7A" stroke="#E8CA7A" stroke-width="0.8"/>
+      <!-- Ink Slit -->
+      <line x1="40" y1="20" x2="48" y2="36" stroke="#080605" stroke-width="0.6"/>
+      <!-- Golden Ink Radiance / Burst -->
+      <circle cx="50" cy="38" r="3" fill="#E8CA7A" stroke="none"/>
+      <path d="M48,36 Q70,45 100,35" stroke="#E8CA7A" stroke-width="0.8" fill="none" stroke-dasharray="2,2"/>
+    </g>
+
+    <!-- Technical Annotations -->
+    <text x="-165" y="-140" fill="#C5A059" opacity="0.45" font-size="9" class="mono-tech">FIG. IV — THE CODEX ENGINE</text>
+    <text x="-165" y="135" fill="#C5A059" opacity="0.4" font-size="8" class="mono-tech">100 MASTER AUTHORS • 400 TECHNIQUES</text>
+    <text x="-165" y="150" fill="#C5A059" opacity="0.4" font-size="8" class="mono-tech">NEWTONIAN KINETICS • 0 FILTER VERBS</text>
+  </g>
+
+  <!-- Typography & Initiative Presentation (Center-Right Cluster) -->
+  <g transform="translate(465, 0)">
+    <!-- Supertitle -->
+    <text x="0" y="125" fill="#C5A059" font-size="11" letter-spacing="4" class="serif-title" opacity="0.85">
+      THE AUTONOMOUS LITERARY CRAFT &amp; STORYTELLING INITIATIVE
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="185" fill="#FDFBF7" font-size="48" letter-spacing="10" class="serif-title">
+      AI NOVEL WRITER
+    </text>
+
+    <!-- Bohemian Gold Line -->
+    <g transform="translate(0, 210)" stroke="#C5A059" opacity="0.6">
+      <line x1="0" y1="0" x2="420" y2="0" stroke-width="0.8"/>
+      <circle cx="210" cy="0" r="3" fill="#C5A059"/>
+      <circle cx="105" cy="0" r="1.5" fill="#C5A059"/>
+      <circle cx="315" cy="0" r="1.5" fill="#C5A059"/>
+    </g>
+
+    <!-- Subtitle / Architecture -->
+    <text x="0" y="245" fill="#C5BEB3" font-size="14" letter-spacing="2" class="serif-title" opacity="0.9">
+      5-STAGE DIRECTOR-ACTOR-STYLIST • 100 AUTHORS KNOWLEDGE GRAPH
+    </text>
+
+    <!-- Narrative Ethos -->
+    <text x="0" y="275" fill="#8C857B" font-size="13" class="serif-sub">
+      Eliminating AI cliches and purple prose with Gardner psychic distance, visceral physics, and zero filter verbs.
+    </text>
+
+    <!-- Craft Badges -->
+    <g transform="translate(0, 315)">
+      <rect x="0" y="0" width="130" height="24" rx="2" fill="#14110E" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.4"/>
+      <text x="65" y="16" fill="#C5A059" font-size="10" text-anchor="middle" class="mono-tech">100 AUTHORS</text>
+
+      <rect x="142" y="0" width="135" height="24" rx="2" fill="#14110E" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.4"/>
+      <text x="209" y="16" fill="#C5A059" font-size="10" text-anchor="middle" class="mono-tech">400 TECHNIQUES</text>
+
+      <rect x="289" y="0" width="145" height="24" rx="2" fill="#14110E" stroke="#C5A059" stroke-width="0.6" stroke-opacity="0.4"/>
+      <text x="361" y="16" fill="#C5A059" font-size="10" text-anchor="middle" class="mono-tech">ZERO FILTER VERBS</text>
+    </g>
+
+    <text x="0" y="365" fill="#5C564E" font-size="9" letter-spacing="2" class="mono-tech">
+      EX COGITATIONE FABULA • ANNO MMXXVI • OPEN SOURCE ATELIER
+    </text>
+  </g>
+</svg>

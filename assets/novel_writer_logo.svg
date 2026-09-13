@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="vignette-nw-logo" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1A1512" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#0E0B09" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#080605" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="gold-nw-logo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8CA7A"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C7932"/>
+    </linearGradient>
+    <style>
+      .serif-display { font-family: 'Cinzel', 'Cormorant Garamond', 'Didot', 'Playfair Display', 'Georgia', serif; }
+      .mono-tech { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+    </style>
+  </defs>
+
+  <rect width="400" height="400" fill="#080605"/>
+  <rect width="400" height="400" fill="url(#vignette-nw-logo)"/>
+
+  <!-- Outer Border -->
+  <rect x="16" y="16" width="368" height="368" fill="none" stroke="#C5A059" stroke-width="0.75" stroke-opacity="0.4"/>
+  <rect x="20" y="20" width="360" height="360" fill="none" stroke="#C5A059" stroke-width="0.5" stroke-dasharray="3,5" stroke-opacity="0.25"/>
+
+  <!-- Renaissance Astrolabe & Kinetic Quill Motif -->
+  <g transform="translate(200, 200)" stroke="#C5A059" fill="none">
+    <circle cx="0" cy="0" r="145" stroke-width="0.8" stroke-opacity="0.5"/>
+    <circle cx="0" cy="0" r="115" stroke-width="0.5" stroke-dasharray="2,4" stroke-opacity="0.25"/>
+    <line x1="-155" y1="0" x2="155" y2="0" stroke-width="0.4" stroke-opacity="0.2"/>
+    <line x1="0" y1="-155" x2="0" y2="155" stroke-width="0.4" stroke-opacity="0.2"/>
+
+    <!-- Golden Spiral Curve -->
+    <path d="M0,0 A12,12 0 0,1 12,12 A24,24 0 0,1 -12,36 A48,48 0 0,1 -60,-12 A84,84 0 0,1 24,-84" 
+          stroke="url(#gold-nw-logo)" stroke-width="1.1" stroke-opacity="0.6" stroke-dasharray="2,3"/>
+
+    <!-- The Quill Nib -->
+    <g stroke="url(#gold-nw-logo)" stroke-width="1.2">
+      <path d="M-30,-80 Q0,-30 25,25 L18,32 Q-12,-25 -42,-70 Z" fill="#120F0D" fill-opacity="0.9"/>
+      <polygon points="25,25 33,40 18,32" fill="#E8CA7A" stroke="#E8CA7A" stroke-width="0.8"/>
+      <circle cx="35" cy="42" r="2.5" fill="#E8CA7A" stroke="none"/>
+    </g>
+
+    <!-- Luxury Serif Monogram 'NW' or 'W' -->
+    <text x="0" y="55" fill="#FDFBF7" font-size="78" text-anchor="middle" class="serif-display" stroke="none">W</text>
+
+    <text x="0" y="90" fill="#C5A059" font-size="8" text-anchor="middle" class="mono-tech" stroke="none" opacity="0.7">AI NOVEL WRITER</text>
+    <text x="0" y="103" fill="#C5A059" font-size="6" text-anchor="middle" class="mono-tech" stroke="none" opacity="0.4">100 AUTHORS • CRAFT ATELIER</text>
+  </g>
+</svg>
