@@ -43,3 +43,7 @@ $RECYCLE.BIN/
 # Story State Temp / WAL (keep database schema but ignore wal/shm locks if created)
 *.sqlite-wal
 *.sqlite-shm
+
+# Generated Novel Outputs & Chapters (Excluded from GitHub repository)
+output/*
+!output/.gitkeep

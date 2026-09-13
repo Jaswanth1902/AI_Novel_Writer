@@ -5,7 +5,7 @@
 [![Craft Standards](https://img.shields.io/badge/Anti--Slop-0%20Filter%20Verbs-success.svg)]()
 [![Em-Dash Ceiling](https://img.shields.io/badge/Em--Dash%20Density-%E2%89%A5800%20w%2Fd-brightgreen.svg)]()
 [![Knowledge Graph](https://img.shields.io/badge/Graph-100%20Authors%20%7C%20400%20Craft%20Techniques-orange.svg)]()
-[![Flagship Novel](https://img.shields.io/badge/Flagship-The%20Mysteries%20of%20Life%20(50k%2B%20Words)-purple.svg)]()
+[![Outputs](https://img.shields.io/badge/Outputs-Local%20%26%20Private%20(Git--Ignored)-purple.svg)]()
 
 An autonomous, production-grade **5-Stage Director-Actor-Stylist Engine** with an integrated **Graph Knowledgebase of 100 Master Authors**, designed to extract narrative parameters from user notes, match reference books, and inject canonical craft techniques into long-form literary fiction.
 
@@ -118,17 +118,12 @@ python -m pytest -o pythonpath=. tests/ -v
 
 ---
 
-## 📚 Flagship Production: *The Mysteries of Life*
+## 📚 Local Outputs & Manuscript Privacy
 
-The engine's reference implementation is the complete reconstruction of the epic fantasy manuscript **The Mysteries of Life** by **Jaswanth Reddy**.
+The engine's generated manuscripts and chapter outputs reside locally in `output/` (strictly `.gitignore`d to protect private creative works, avoid repository bloat, and maintain a clean open-source engine):
 
-- **Current Published State**: **Chapters 1–36** (50,258 words)
-- **Quality Gate Score**: **100% Passed across all 37 files** (0 Filter Verbs, 0 Banned Cliches, 0 Banned Crutches, 0 Anachronisms, 1 dash per 1,092 words)
-- **Story Arc Overview**:
-  - **Act I: The Awakening (Ch 1–10)**: The Honoured One awakes; cosmic comet alignment; the Unlit Ridge lightning deflection; the purge of the unawakened.
-  - **Act II: The Subterranean Folio & Heresy (Ch 11–20)**: Unit 07 formation; discovery of Master Varun's forbidden grammar; constraint collapse; the testing duel; trial against veteran proctors Rao and Meera; dispatch to Vyadha Block.
-  - **Act III: The Siege of Langford (Ch 21–30)**: Rail transit to Langford mining basin; liaison Lyra; water mill and orphanage breaches; Tier 3 Danava siege; Chaitanya's sacrificial plasma collapse; extraction of the wounded heroes.
-  - **Act IV: The Recovery & Tournament Mobilization (Ch 31–36+)**: The silent vigil; Bennett's ice-anchoring; Tejaswini's thermal discipline; Chaitanya's meridian awakening; announcement of the Grand Selection Tournament.
+- **Local Storage**: All chapter drafts, pipeline logs, and compiled manuscripts remain safely stored on your local disk in `output/`.
+- **Git Excluded**: The repository tracks the engine framework, master author database, knowledge graph, and test suite. Generated novels stay in your local environment.
 
 ---
 
