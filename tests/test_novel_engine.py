@@ -121,3 +121,38 @@ def test_director_scene_contract():
     assert "craft_injection" in contract
     assert len(contract["craft_injection"]["reference_authors"]) > 0
     assert len(contract["craft_injection"]["signature_techniques"]) > 0
+
+
+def test_character_dossier():
+    from engine.character_dossier import CharacterDossier, CharacterDossierManager
+    manager = CharacterDossierManager()
+    dossiers = manager.list_dossiers()
+    assert len(dossiers) >= 1, "Expected at least one character dossier"
+    jaswanth = manager.load_dossier("Jaswanth")
+    assert jaswanth is not None
+    assert jaswanth.name == "Jaswanth"
+    assert jaswanth.photo_path is not None
+    md = jaswanth.render_markdown_card()
+    assert "Character Dossier: Jaswanth" in md
+    assert "Cold-forged iron band" in md
+
+
+def test_plot_critic():
+    from engine.critic import PlotCritic
+    from engine.character_dossier import CharacterDossierManager
+    critic = PlotCritic()
+    manager = CharacterDossierManager()
+    chars = manager.list_dossiers()
+
+    sample_plot = "Unit 07 races against dawn to seal the thermal vents before the turbine hall explodes."
+    eval_res = critic.evaluate_plot(sample_plot, characters=chars)
+
+    assert "scorecard" in eval_res
+    assert eval_res["scorecard"]["overall_score"] > 0
+    assert len(eval_res["master_authors_matched"]) > 0
+    assert len(eval_res["structural_upgrades"]) > 0
+
+    report = critic.generate_markdown_critique(sample_plot, characters=chars)
+    assert "# 📝 Plot Diagnostic" in report
+    assert "Anti-Plagiarism" in report
+

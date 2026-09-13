@@ -1,0 +1,25 @@
+{
+  "name": "Tejaswini",
+  "role": "Tactical Specialist / Prodigy",
+  "photo_path": null,
+  "visual_description": {
+    "age": "19",
+    "height": "170 cm (5 ft 7 in)",
+    "build": "Wiry, hyper-flexible, coiled kinetic balance",
+    "hair": "Dark hair bound tightly in twin braids with copper needles",
+    "eyes": "Deep obsidian, observant and unrelenting",
+    "complexion": "Warm dusk, soot-dusted along the collarbone",
+    "attire": "Reinforced leather cuirass over ochre raw silk with thermal venting seams"
+  },
+  "somatic_tells": [
+    "Checks hair needles with thumb and forefinger before any confrontation",
+    "Rhythmic exhale releasing thermal vapor from the nose",
+    "Shifts weight from heel to ball of foot continuously"
+  ],
+  "signature_item": "Three etched copper resonance needles pinned in hair",
+  "image_prompt": "Cinematic portrait of a 19-year-old South Asian female martial prodigy named Tejaswini, dark hair in twin braids pinned with copper needles, intense obsidian eyes, reinforced ochre and leather armor with bronze accents, subtle heat haze around hands, atmospheric lighting, high-detail concept art.",
+  "epistemic_secrets": [
+    "Has decoded the heat-venting flaw in the Danava armor plates",
+    "Withholding the full extent of her family's debt to the Grand Master"
+  ]
+}

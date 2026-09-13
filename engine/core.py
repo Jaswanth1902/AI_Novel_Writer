@@ -3,12 +3,13 @@ AI Novel Engine - Core Orchestrator
 Author: Jaswanth1902
 Repository: Jaswanth1902/AI_Novel_Engine
 
-Coordinates the 5-stage pipeline with Graph-Powered Craft Injection:
+Coordinates the 5-stage pipeline with Graph-Powered Craft Injection & Plot Critic:
 1. Director (Scene Contract + Master Author Craft Injection)
-2. Actor (Epistemic Envelopes)
+2. Actor (Epistemic Envelopes & Character Visual Dossiers)
 3. Stylist (Craft Calibration & Gardner Continuum)
 4. Renderer (Prose Output)
 5. Gatekeeper (State Delta & Linting)
++ Plot Critic (Diagnostic, Non-Derivative Upgrades & Visual Cards)
 """
 
 import os
@@ -21,6 +22,8 @@ from engine.memory import StoryMemory
 from engine.linter import NovelLinter
 from engine.attribute_extractor import AttributeExtractor, ExtractedAttributes
 from engine.graph_knowledge import GraphKnowledgebase
+from engine.character_dossier import CharacterDossier, CharacterDossierManager
+from engine.critic import PlotCritic
 
 
 class NovelEngine:
@@ -34,6 +37,8 @@ class NovelEngine:
         self.linter = NovelLinter()
         self.extractor = AttributeExtractor()
         self.graph = GraphKnowledgebase(os.path.join(self.workspace_root, "state", "author_knowledge_graph.sqlite"))
+        self.character_manager = CharacterDossierManager(os.path.join(self.workspace_root, "assets", "characters"))
+        self.critic = PlotCritic()
 
     def match_craft(self, text: str, top_k: int = 3, overrides: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """Extracts attributes and generates craft injection from 100 authors graph."""
@@ -55,6 +60,28 @@ class NovelEngine:
             user_notes=notes,
             pov=pov,
             top_k_authors=top_k,
+        )
+
+    def critique_plot(
+        self,
+        plot_notes: str,
+        character_names: Optional[List[str]] = None,
+        overrides: Optional[Dict[str, Any]] = None
+    ) -> str:
+        """Generates a complete diagnostic critique, actionable upgrades, and visual character cards."""
+        characters = []
+        if character_names:
+            for name in character_names:
+                dossier = self.character_manager.load_dossier(name)
+                if dossier:
+                    characters.append(dossier)
+        else:
+            characters = self.character_manager.list_dossiers()
+
+        return self.critic.generate_markdown_critique(
+            plot_text=plot_notes,
+            characters=characters,
+            overrides=overrides,
         )
 
     def audit_chapter(self, filepath: str) -> Dict[str, Any]:

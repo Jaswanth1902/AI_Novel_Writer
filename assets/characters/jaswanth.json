@@ -1,0 +1,25 @@
+{
+  "name": "Jaswanth",
+  "role": "Protagonist",
+  "photo_path": "assets/characters/jaswanth_protagonist.jpg",
+  "visual_description": {
+    "age": "19",
+    "height": "180 cm (5 ft 11 in)",
+    "build": "Lean, corded martial frame",
+    "hair": "Short, tousled dark hair",
+    "eyes": "Sharp amber-hazel, vigilant",
+    "complexion": "Warm olive-bronze with minor sparring nicks",
+    "attire": "High-collared charcoal wool and linen tunic with rawhide lacing"
+  },
+  "somatic_tells": [
+    "Fingers twitch toward the wrist band when assessing structural loads",
+    "Breathing settles into a four-beat pulse during physical tension",
+    "Jaw sets without raising the chin"
+  ],
+  "signature_item": "Cold-forged iron band around right wrist",
+  "image_prompt": "Cinematic portrait of a 19-year-old South Asian male fantasy protagonist named Jaswanth, lean athletic build, sharp focused gaze, short dark hair, wearing a charcoal wool and linen martial tunic with a high collar, cold forged iron band on right wrist, atmospheric lighting with soft mist and subtle embers, digital painting concept art.",
+  "epistemic_secrets": [
+    "Aware that the second comet surge unlocked a subterranean grammar beneath Iron Peak",
+    "Concealing the micro-fracture along his right forearm meridian from Proctors Rao and Meera"
+  ]
+}

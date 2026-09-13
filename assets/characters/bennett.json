@@ -1,0 +1,25 @@
+{
+  "name": "Bennett",
+  "role": "Ally / Noble Foil",
+  "photo_path": null,
+  "visual_description": {
+    "age": "20",
+    "height": "185 cm (6 ft 1 in)",
+    "build": "Broad-shouldered, aristocratic military posture",
+    "hair": "Ash-blond, combed back with clean precision",
+    "eyes": "Pale slate-blue, measured and calculating",
+    "complexion": "Fair, weathered by northern mountain wind",
+    "attire": "Deep sea-blue tunic over padded linen, bone-handled silver carving knife at belt"
+  },
+  "somatic_tells": [
+    "Rolls a bone token between knuckles while deliberating tactical options",
+    "Left shoulder drops slightly when entering an ice-anchor stance",
+    "Speaks in clipped, low-register aristocratic cadences"
+  ],
+  "signature_item": "Bone-handled silver carving knife",
+  "image_prompt": "Cinematic portrait of a 20-year-old noble northern warrior named Bennett, broad shoulders, ash-blond hair neatly combed back, pale slate-blue eyes, wearing a deep sea-blue tailored martial coat with silver embroidery, holding a bone-handled knife, mountain fortress background, concept art digital painting.",
+  "epistemic_secrets": [
+    "Knows that House Bennett's northern estates are defaulting on iron taxes to the capital",
+    "Harbors deep guilt over the fallen squad members at Langford basin"
+  ]
+}

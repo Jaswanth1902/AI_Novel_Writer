@@ -14,6 +14,8 @@ from engine.core import NovelEngine
 from engine.linter import NovelLinter
 from engine.attribute_extractor import AttributeExtractor
 from engine.graph_knowledge import GraphKnowledgebase
+from engine.character_dossier import CharacterDossier, CharacterDossierManager
+from engine.critic import PlotCritic
 
 
 def cmd_audit(args):
@@ -225,6 +227,77 @@ def cmd_plan(args):
     print(yaml_str)
 
 
+def cmd_critique(args):
+    engine = NovelEngine()
+    text = args.notes
+    if args.file and os.path.exists(args.file):
+        with open(args.file, "r", encoding="utf-8") as f:
+            text = f.read()
+
+    if not text:
+        print("Error: Provide --notes or --file to critique.")
+        sys.exit(1)
+
+    overrides = {}
+    if args.genre:
+        overrides["genre"] = args.genre
+    if args.era:
+        overrides["era"] = args.era
+
+    # Load characters if requested
+    chars = []
+    if args.characters:
+        names = [n.strip() for n in args.characters.split(",")]
+        for n in names:
+            c = engine.character_manager.load_dossier(n)
+            if c:
+                chars.append(c)
+    elif not args.no_characters:
+        chars = engine.character_manager.list_dossiers()
+
+    # Optional custom photo passed via CLI
+    if args.photo and chars:
+        chars[0].photo_path = args.photo
+
+    report_md = engine.critic.generate_markdown_critique(
+        plot_text=text,
+        characters=chars,
+        overrides=overrides,
+    )
+
+    if args.out:
+        os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
+        with open(args.out, "w", encoding="utf-8") as f:
+            f.write(report_md)
+        print(f"\nSuccessfully generated plot critique and character sheet at {args.out} ({len(report_md)} characters).")
+    else:
+        # Safe printing for various terminal encodings
+        if hasattr(sys.stdout, "reconfigure"):
+            try:
+                sys.stdout.reconfigure(encoding="utf-8")
+            except Exception:
+                pass
+        print(report_md)
+
+
+def cmd_character_card(args):
+    manager = CharacterDossierManager()
+    dossier = CharacterDossier(
+        name=args.name,
+        role=args.role or "Protagonist",
+        photo_path=args.photo,
+        signature_item=args.item or "Cold forged iron band",
+        visual_description={"summary": args.desc} if args.desc else {},
+        somatic_tells=[t.strip() for t in args.tells.split(";")] if args.tells else [],
+    )
+
+    if args.save:
+        p = manager.save_dossier(dossier)
+        print(f"Saved character dossier for {args.name} to {p}")
+
+    print("\n" + dossier.render_markdown_card())
+
+
 def main():
     parser = argparse.ArgumentParser(description="AI Novel Engine CLI - Developed for Jaswanth1902")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -273,6 +346,29 @@ def main():
     plan_parser.add_argument("--pov", default="Jaswanth", help="POV character name")
     plan_parser.add_argument("--top", type=int, default=3, help="Top authors to inject")
     plan_parser.set_defaults(func=cmd_plan)
+
+    # critique
+    critique_parser = subparsers.add_parser("critique", help="Generate plot diagnostic, craft upgrades, and character visual sheet")
+    critique_parser.add_argument("--notes", default=None, help="Raw plot outline or scene notes")
+    critique_parser.add_argument("--file", default=None, help="Path to notes file")
+    critique_parser.add_argument("--out", default=None, help="Output markdown report path")
+    critique_parser.add_argument("--characters", default=None, help="Comma-separated character names to attach")
+    critique_parser.add_argument("--no-characters", action="store_true", help="Do not attach character dossiers")
+    critique_parser.add_argument("--photo", default=None, help="Optional photo path for primary character")
+    critique_parser.add_argument("--genre", default=None, help="Explicit genre override")
+    critique_parser.add_argument("--era", default=None, help="Explicit era override")
+    critique_parser.set_defaults(func=cmd_critique)
+
+    # character-card
+    char_parser = subparsers.add_parser("character-card", help="Create and render a character visual card with optional photo")
+    char_parser.add_argument("--name", required=True, help="Character name")
+    char_parser.add_argument("--role", default="Protagonist", help="Archetype or role")
+    char_parser.add_argument("--photo", default=None, help="Local image path or URL")
+    char_parser.add_argument("--item", default=None, help="Signature anchor item")
+    char_parser.add_argument("--desc", default=None, help="Visual physical description")
+    char_parser.add_argument("--tells", default=None, help="Semicolon-separated somatic tells")
+    char_parser.add_argument("--save", action="store_true", help="Save into assets/characters/")
+    char_parser.set_defaults(func=cmd_character_card)
 
     args = parser.parse_args()
     args.func(args)
