@@ -1,0 +1,64 @@
+# AI Novel Engine: Machine-Readable Genre & Era Configuration
+# Author: Jaswanth1902
+
+genres:
+  epic_fantasy:
+    pacing: "balanced"
+    avg_sentence_len: 16
+    sensory_palette: ["cold iron", "mutton tallow", "stone dust", "wet vellum", "pine smoke"]
+    conflict_type: "sociopolitical_destiny"
+    magic_hardness: "high"
+    banned_tropes: ["instant_unearned_godhood", "modern_colloquialisms"]
+
+  grimdark_military:
+    pacing: "kinetic_staccato"
+    avg_sentence_len: 11
+    sensory_palette: ["blood", "vinegar bandages", "sulfur bile", "wet wool", "shattered bone"]
+    conflict_type: "attritional_survival"
+    magic_hardness: "hard_brutal"
+    banned_tropes: ["clean_heroic_deaths", "flawless_armor"]
+
+  hard_scifi:
+    pacing: "analytical"
+    avg_sentence_len: 14
+    sensory_palette: ["cryo_vapor", "hydraulic oil", "vacuum chill", "recycled oxygen", "graphite"]
+    conflict_type: "intellect_vs_thermodynamics"
+    magic_hardness: "strict_physics"
+    banned_tropes: ["ftl_handwaving", "sound_in_space", "technobabble"]
+
+  cyberpunk:
+    pacing: "syncopated"
+    avg_sentence_len: 12
+    sensory_palette: ["ozone", "wet asphalt", "synthetic rubber", "neon hum", "cheap stimulants"]
+    conflict_type: "individual_vs_megacorp"
+    magic_hardness: "technological_mesh"
+    banned_tropes: ["romanticized_poverty", "monolithic_good"]
+
+  progression_fantasy:
+    pacing: "escalating"
+    avg_sentence_len: 13
+    sensory_palette: ["meridian heat", "bone marrow frost", "compressed air", "shale", "blood"]
+    conflict_type: "will_vs_cosmic_constraints"
+    magic_hardness: "quantified_laws"
+    banned_tropes: ["free_breakthroughs", "young_master_caricatures"]
+
+technological_eras:
+  stone_age:
+    allowed: ["flint", "obsidian", "hide", "sinew", "tallow", "hearth", "wicker"]
+    forbidden: ["steel", "iron", "parchment", "glass", "carriage", "gunpowder", "tea", "couch"]
+
+  medieval:
+    allowed: ["forged iron", "steel", "chainmail", "vellum", "torch", "wax seal", "stone bastion"]
+    forbidden: ["locomotive", "steam engine", "printing press", "watch", "tea", "coffee", "couch"]
+
+  industrial_atla:
+    allowed: ["coal locomotive", "steam boiler", "iron rails", "graphite", "whale oil", "tallow", "telegraph"]
+    forbidden: ["couch", "tea", "coffee", "zipper", "plastic", "combustion engine", "electricity"]
+
+  victorian_gaslamp:
+    allowed: ["gas lamp", "cobblestone", "steamship", "telegraph", "pocket watch", "carriage cab"]
+    forbidden: ["computer", "nylon", "digital", "radar", "modern slang"]
+
+  far_future:
+    allowed: ["fiber optic", "sub-orbital", "synthetic neural mesh", "vacuum chamber", "plasma conduit"]
+    forbidden: ["feudal_deference_without_context", "unexplained_magic"]

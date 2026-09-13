@@ -92,7 +92,7 @@ Anirudh took the center of the ring. He removed his outer grey tunic, leaving hi
 
 Chaitanya stood beside the heavy iron observation gate, his hands gripping the cold bars.
 
-"The current theory of lightning," Anirudh called out, his voice bouncing flatly off the copper plates, "states that electricity cannot be held. To touch the bolt is to suffer immediate cardiac seizure and neuromuscular vaporization. It is lethal because the current seeks the shortest path to earth, directly through the heart."
+"The current theory of lightning," Anirudh called out, his voice bouncing flatly off the copper plates, "states that the charge cannot be held. To touch the bolt is to suffer immediate cardiac seizure and neuromuscular vaporization. It is lethal because the current seeks the shortest path to earth, directly through the heart."
 
 Anirudh sank his hips, widening his footing until his boots locked into the granite grit. 
 

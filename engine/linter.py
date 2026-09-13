@@ -6,15 +6,16 @@ Repository: Jaswanth1902/AI_Novel_Engine
 Enforces:
 - 0 Filter Verbs
 - 0 Banned AI Cliches
-- 0 Banned Faux-Archaic Crutches (scriptorium, portico, etc.)
-- 0 Anachronisms (no tea, no couches, etc.)
+- 0 Banned Faux-Archaic Crutches (scriptorium, portico, visage, countenance, ebon, eldritch)
+- 0 Technological Anachronisms (configurable per era: Stone, Medieval, ATLA-Industrial, Victorian, Sci-Fi)
 - Strict Em-dash density (>= 800 words per dash)
 """
 
 import os
 import re
 import sys
-from typing import Dict, List, Tuple, Any
+import yaml
+from typing import Dict, List, Tuple, Any, Optional
 
 BANNED_AI_CLICHES = [
     "testament to",
@@ -49,7 +50,7 @@ BANNED_FAUX_ARCHAIC_CRUTCHES = [
     "eldritch",
 ]
 
-BANNED_ANACHRONISMS = [
+DEFAULT_ANACHRONISMS = [
     "couch",
     "couches",
     "sofa",
@@ -88,8 +89,18 @@ class LintViolation:
 
 
 class NovelLinter:
-    def __init__(self, em_dash_threshold: int = 800):
+    def __init__(self, em_dash_threshold: int = 800, era: str = "industrial_atla"):
         self.em_dash_threshold = em_dash_threshold
+        self.era = era
+        self.era_anachronisms = self._load_era_anachronisms(era)
+
+    def _load_era_anachronisms(self, era: str) -> List[str]:
+        cfg_path = os.path.join(os.path.dirname(__file__), "..", "config", "genre_matrix.yaml")
+        if os.path.exists(cfg_path):
+            with open(cfg_path, "r", encoding="utf-8") as f:
+                data = yaml.safe_load(f)
+                return data.get("technological_eras", {}).get(era, {}).get("forbidden", DEFAULT_ANACHRONISMS)
+        return DEFAULT_ANACHRONISMS
 
     def lint_text(self, text: str) -> Dict[str, Any]:
         lines = text.splitlines()
@@ -115,9 +126,9 @@ class NovelLinter:
                     violations.append(LintViolation(idx, "BANNED_CRUTCH", word, line))
 
             # Check anachronisms
-            for item in BANNED_ANACHRONISMS:
+            for item in self.era_anachronisms:
                 if re.search(r"\b" + re.escape(item) + r"\b", line, re.IGNORECASE):
-                    violations.append(LintViolation(idx, "ANACHRONISM", item, line))
+                    violations.append(LintViolation(idx, f"ANACHRONISM_{self.era.upper()}", item, line))
 
         dash_density = (words / dashes) if dashes > 0 else float("inf")
         dash_compliant = dash_density >= self.em_dash_threshold
@@ -145,11 +156,17 @@ class NovelLinter:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python -m engine.linter <path_to_markdown_or_dir>")
+        print("Usage: python -m engine.linter <path_to_markdown_or_dir> [--era <era>]")
         sys.exit(1)
 
     target = sys.argv[1]
-    linter = NovelLinter()
+    era = "industrial_atla"
+    if "--era" in sys.argv:
+        idx = sys.argv.index("--era")
+        if idx + 1 < len(sys.argv):
+            era = sys.argv[idx + 1]
+
+    linter = NovelLinter(era=era)
 
     files_to_check = []
     if os.path.isdir(target):
@@ -166,7 +183,7 @@ def main():
     total_violations = 0
 
     print(f"\n========================================================")
-    print(f"  AI Novel Engine Quality Gate: Auditing {len(files_to_check)} Files")
+    print(f"  AI Novel Engine Quality Gate: Auditing {len(files_to_check)} Files [Era: {era}]")
     print(f"========================================================\n")
 
     for fpath in files_to_check:
