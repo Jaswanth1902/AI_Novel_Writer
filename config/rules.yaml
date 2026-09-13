@@ -1,0 +1,83 @@
+# AI Novel Engine: Core Governance & Craft Rules
+# Author: Jaswanth1902
+
+version: "2.0.0"
+
+craft_invariants:
+  filter_verbs:
+    enabled: true
+    banned_patterns:
+      - "\\b(he|she|they|i)\\s+felt\\b"
+      - "\\b(he|she|they|i)\\s+noticed\\b"
+      - "\\b(he|she|they|i)\\s+wondered\\b"
+      - "\\b(he|she|they|i)\\s+realized\\b"
+      - "\\b(he|she|they|i)\\s+decided\\b"
+      - "\\b(he|she|they|i)\\s+heard\\s+that\\b"
+      - "\\b(he|she|they|i)\\s+saw\\s+that\\b"
+      - "\\bfelt\\s+like\\b"
+      - "\\bnoticed\\s+that\\b"
+      - "\\bseemed\\s+to\\s+be\\b"
+    mandate: "Render all internal and emotional states through autonomic nervous reactions, visceral somatic sensations, or Free Indirect Discourse."
+
+  em_dash_ceiling:
+    max_density_per_words: 800  # Strict: at most 1 em-dash per 800 words
+    recommended_target: 1500     # Target: <= 1 dash per full chapter
+    preferred_alternatives:
+      - colons
+      - semicolons
+      - parentheses
+      - varied sentence structures
+
+  banned_ai_cliches:
+    - "testament to"
+    - "tapestry of"
+    - "delve"
+    - "delved"
+    - "beacon of"
+    - "symphony of"
+    - "shivers down"
+    - "shiver down"
+    - "cacophony"
+    - "labyrinthine"
+    - "a dance of"
+    - "intertwined"
+    - "resonated with"
+    - "palpable tension"
+    - "a grim reminder"
+    - "steely resolve"
+    - "unspoken understanding"
+    - "silent sentinel"
+    - "whispers of"
+    - "little did he know"
+    - "little did she know"
+
+  banned_faux_archaic_crutches:
+    # Explicitly banned repetitive architectural and stylistic crutches
+    - "scriptorium"
+    - "portico"
+    - "visage"
+    - "countenance"
+    - "ebon"
+    - "eldritch"
+
+  worldbuilding_anachronisms:
+    forbidden_items:
+      - "couch"
+      - "couches"
+      - "sofa"
+      - "tea"  # Replace with barley broth, roasted chicory, mint infusion, pine-needle water
+      - "coffee"
+      - "clock" # Unless primitive water-clock or iron escapement
+      - "electricity"
+      - "light switch"
+      - "cigarette"
+      - "zipper"
+    technology_level: "Avatar: The Last Airbender equivalent (coal/steam mechanics, iron carriages, watermills, blacksmithing, alchemy)"
+    cultural_baseline: "Nature-bound agrarian and martial culture unified under Imperial Inscription"
+
+  physics_and_choreography:
+    mandate: "Newtonian Martial Weight"
+    rules:
+      - "Conservation of momentum: mass cannot be redirected without counter-leverage or kinetic displacement."
+      - "Friction, torque, and air resistance must be accounted for in every strike."
+      - "Element bending is subject to thermodynamic gradients (compression, conduction, vacuum, phase changes)."

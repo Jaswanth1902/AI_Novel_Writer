@@ -1,0 +1,493 @@
+=== Searching for agy-hud and hooks ===
+agy-hud files: ['C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\agy-hook.cs', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\agy-hook.exe', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\final_test.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hud_err.log', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hud_out.log', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hud_test_suite.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\launch_hud.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\live_demo_test.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\NativeHUD.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\PROJECT_RULES.md', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\smoke_test.bat', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\smoke_test.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\SpatialHUD.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\start_hud.bat', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\start_spatial_hud.bat', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\telemetry_benchmark.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\telemetry_report.json', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\test_auto_mode.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\test_hud_syntax.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\test_live_execution.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\test_spatial_hud.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\bin\\agy-auto.bat', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\bin\\agy-silent.cmd', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\agy-hook.exe', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\approval-gate.cmd', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\approval-gate.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\post-tool-use.cmd', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\post-tool-use.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\post-tool-use.ps1.bak', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\pre-invocation.cmd', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\pre-invocation.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\stop.cmd', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\stop.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\hooks\\_helpers.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\hacker_toolkit_cli.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\ollama_governor.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\OmniTerminal.ps1', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\omni_harvester.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\path_bridge.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\port_buster.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\secret_sentinel.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\spatial_telemetry_daemon.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\wsl_ram_tamer.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__init__.py', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\hacker_toolkit_cli.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\ollama_governor.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\omni_harvester.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\path_bridge.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\port_buster.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\secret_sentinel.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\spatial_telemetry_daemon.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\tools\\__pycache__\\wsl_ram_tamer.cpython-312.pyc', 'C:\\Users\\jaswa\\Antigravity\\services\\agy-hud\\ui\\index.html']
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\final_test.ps1 ---
+Write-Host "--- Antigravity HUD Final Test ---" -ForegroundColor Cyan
+
+$SESSIONS = "$HOME\.agy-hud\sessions"
+$PENDING = "$HOME\.agy-hud\pending"
+$DECISIONS = "$HOME\.agy-hud\decisions"
+
+if (-not (Test-Path $SESSIONS)) { New-Item -ItemType Directory -Path $SESSIONS -Force | Out-Null }
+if (-not (Test-Path $PENDING)) { New-Item -ItemType Directory -Path $PENDING -Force | Out-Null }
+if (-not (Test-Path $DECISIONS)) { New-Item -ItemType Directory -Path $DECISIONS -Force | Out-Null }
+
+Write-Host "1. I
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\hud_test_suite.ps1 ---
+# Automated Verification Suite for Antigravity HUD & Hooks
+$ErrorActionPreference = "Stop"
+
+$SPOOL_DIR     = "$HOME\.agy-hud"
+$SESSIONS_DIR  = "$SPOOL_DIR\sessions"
+$PENDING_DIR   = "$SPOOL_DIR\pending"
+$DECISIONS_DIR = "$SPOOL_DIR\decisions"
+
+Write-Host "=== TEST 1: Testing Telemetry Hooks Direct Invocation ===" -ForegroundColor Cyan
+$testConvId = "test-conv-$([Guid]::NewGuid().ToString().Substring(0,8))"
+
+# Simulate pre-invocation hook
+$preInput = "{`"conversationId`":`"$testConvId`",`"modelNa
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\launch_hud.ps1 ---
+# Clean up old HUD processes
+Get-CimInstance Win32_Process -Filter "Name = 'powershell.exe'" | Where-Object { $_.CommandLine -match 'NativeHUD\.ps1' } | ForEach-Object {
+    Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue
+}
+
+Start-Sleep -Milliseconds 500
+
+# Start NativeHUD.ps1
+$hudScript = Join-Path $PSScriptRoot "NativeHUD.ps1"
+Start-Process powershell.exe -ArgumentList "-STA -ExecutionPolicy Bypass -WindowStyle Hidden -File `"$hudScript`""
+Start-Sleep -Milliseconds 1500
+
+$pi
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\live_demo_test.ps1 ---
+# Live Interactive Test for Antigravity Dynamic Island HUD
+$SPOOL_DIR     = "$HOME\.agy-hud"
+$SESSIONS_DIR  = "$SPOOL_DIR\sessions"
+$PENDING_DIR   = "$SPOOL_DIR\pending"
+$DECISIONS_DIR = "$SPOOL_DIR\decisions"
+
+$convId = "demo-$([Guid]::NewGuid().ToString().Substring(0,6))"
+
+Write-Host ">>> [1/5] Setting State: WORKING (Electric Blue LED)..." -ForegroundColor Cyan
+$stateWorking = [ordered]@{
+    state           = "working"
+    message         = "Running AST Security Audit & Linting..."
+    times
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\NativeHUD.ps1 ---
+Add-Type -AssemblyName PresentationFramework
+Add-Type -AssemblyName PresentationCore
+Add-Type -AssemblyName WindowsBase
+Add-Type -AssemblyName System.Windows.Forms
+
+$bullet = [char]0x2022
+
+$SPOOL_DIR     = "$HOME\.agy-hud"
+$PENDING_DIR   = "$SPOOL_DIR\pending"
+$DECISIONS_DIR = "$SPOOL_DIR\decisions"
+$SESSIONS_DIR  = "$SPOOL_DIR\sessions"
+
+foreach ($d in @($SPOOL_DIR, $PENDING_DIR, $DECISIONS_DIR, $SESSIONS_DIR)) {
+    if (-not (Test-Path $d)) { New-Item -ItemType Directory -Path $d -Force -Error
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\smoke_test.bat ---
+@echo off
+setlocal
+
+echo Injecting WORKING state...
+echo {"state":"working","message":"Testing...","timestamp":9999999999,"conversation_id":"test-1","project":"MyProject","terminal_pid":null} > "%USERPROFILE%\.agy-hud\sessions\test-1.json"
+echo Look at the HUD! It should be pulsing blue.
+timeout /t 3 /nobreak > nul
+
+echo.
+echo Injecting APPROVAL prompt...
+echo {"schema":1,"conversation_id":"test-1","tool":"run_command","summary":"Run: echo Hello","created":"2026-09-11"} > "%USERPROFILE%\.agy-hud
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\smoke_test.ps1 ---
+Write-Host "Injecting WORKING state..." -ForegroundColor Cyan
+'{"state":"working","message":"Testing...","timestamp":9999999999,"conversation_id":"test-1","project":"MyProject","terminal_pid":null}' | Set-Content "$HOME\.agy-hud\sessions\test-1.json" -Encoding UTF8
+Write-Host "Look at the HUD! It should be pulsing blue." -ForegroundColor Green
+Start-Sleep -Seconds 3
+
+Write-Host "`nInjecting APPROVAL prompt..." -ForegroundColor Cyan
+'{"schema":1,"conversation_id":"test-1","tool":"run_command","su
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\SpatialHUD.ps1 ---
+Add-Type -AssemblyName PresentationFramework
+Add-Type -AssemblyName PresentationCore
+Add-Type -AssemblyName WindowsBase
+Add-Type -AssemblyName System.Windows.Forms
+
+$bullet = [char]0x2022
+
+$SPOOL_DIR        = "$HOME\.agy-hud"
+$PENDING_DIR      = "$SPOOL_DIR\pending"
+$DECISIONS_DIR    = "$SPOOL_DIR\decisions"
+$SESSIONS_DIR     = "$SPOOL_DIR\sessions"
+$COMMANDS_DIR     = "$SPOOL_DIR\commands"
+$CONTEXT_DROP_DIR = "$SPOOL_DIR\context_drop"
+$TELEMETRY_FILE   = "$SPOOL_DIR\telemetry.json"
+
+foreach ($d
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\start_hud.bat ---
+@echo off
+setlocal
+
+echo [1/3] Terminating existing HUD instances...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Process -Filter \"Name = 'powershell.exe'\" | Where-Object { $_.CommandLine -match 'NativeHUD\.ps1' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }"
+
+echo [2/3] Synchronizing active telemetry hooks...
+if not exist "%USERPROFILE%\.agy-hud\hooks" mkdir "%USERPROFILE%\.agy-hud\hooks"
+copy /Y "%~dp0hooks\*" "%USER
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\start_spatial_hud.bat ---
+@echo off
+setlocal
+
+echo ===================================================
+echo   Antigravity Spatial Multi-Satellite HUD Launcher
+echo ===================================================
+
+echo [1/4] Terminating existing HUD instances...
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Get-CimInstance Win32_Process -Filter \"Name = 'powershell.exe'\" | Where-Object { $_.CommandLine -match 'SpatialHUD\.ps1' -or $_.CommandLine -match 'NativeHUD\.ps1' } | ForEach-Object { Stop-Process -Id 
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\telemetry_benchmark.ps1 ---
+# Comprehensive Telemetry, Timing & Benchmark Suite for Antigravity HUD
+$ErrorActionPreference = "SilentlyContinue"
+
+$SPOOL_DIR     = "$HOME\.agy-hud"
+$SESSIONS_DIR  = "$SPOOL_DIR\sessions"
+$PENDING_DIR   = "$SPOOL_DIR\pending"
+$DECISIONS_DIR = "$SPOOL_DIR\decisions"
+$HOOKS_DIR     = "$SPOOL_DIR\hooks"
+
+Write-Host "======================================================================" -ForegroundColor Cyan
+Write-Host "      ANTIGRAVITY NATIVE HUD: FULL TELEMETRY & TIMING BENCHMARK       " -Fore
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\telemetry_report.json ---
+﻿{
+    "timestamp":  "2026-09-12T12:37:54.3866610+05:30",
+    "metrics":  {
+                    "HUD_PID":  25232,
+                    "RAM_WorkingSet_MB":  164.21,
+                    "Handle_Count":  1029,
+                    "Native_MicroShim_AvgMs":  268.2,
+                    "Hook_PreInvocation_AvgMs":  3237,
+                    "Hook_PostToolUse_AvgMs":  3331.6,
+                    "Hook_Stop_AvgMs":  3251.2,
+                    "Gate_NetOverhead_Ms":  3224,
+                    "Atomic_IO
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\test_auto_mode.ps1 ---
+# Automated Verification for Auto-Execution Mode & Tripwire
+$ErrorActionPreference = "Stop"
+
+$SPOOL_DIR     = "$HOME\.agy-hud"
+$AUTO_FLAG     = "$SPOOL_DIR\auto_mode.flag"
+$SESSIONS_DIR  = "$SPOOL_DIR\sessions"
+$PENDING_DIR   = "$SPOOL_DIR\pending"
+$HOOK_EXE      = "$PSScriptRoot\agy-hook.exe"
+
+Write-Host "=== TEST 1: Auto-Execution Mode Fast-Approval ===" -ForegroundColor Cyan
+[System.IO.File]::WriteAllText($AUTO_FLAG, '{"active":true,"enabledBy":"test"}', [System.Text.Encoding]::UTF8)
+
+$sw = [
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\test_hud_syntax.ps1 ---
+Add-Type -AssemblyName PresentationFramework
+Add-Type -AssemblyName PresentationCore
+Add-Type -AssemblyName WindowsBase
+
+$scriptContent = Get-Content (Join-Path $PSScriptRoot "NativeHUD.ps1") -Raw
+
+# Test 1: PowerShell Syntax
+$errors = $null
+[System.Management.Automation.Language.Parser]::ParseInput($scriptContent, [ref]$null, [ref]$errors) | Out-Null
+if ($errors.Count -gt 0) {
+    Write-Error "PowerShell Syntax Errors found: $($errors -join '; ')"
+    exit 1
+}
+
+# Test 2: XAML Parsing
+$xamlMatch
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\test_live_execution.ps1 ---
+# Live End-to-End Test for Auto-Execution & HUD Dynamic Island
+$ErrorActionPreference = "SilentlyContinue"
+
+$SPOOL = "$HOME\.agy-hud"
+$SESSIONS = "$SPOOL\sessions"
+$FLAG = "$SPOOL\auto_mode.flag"
+$LOG = "$SPOOL\auto_execution.log"
+$HOOK = "$SPOOL\hooks\agy-hook.exe"
+
+Write-Host "==========================================================" -ForegroundColor Cyan
+Write-Host "       ANTIGRAVITY HUD: LIVE AUTO-EXECUTION TEST RUN      " -ForegroundColor Cyan
+Write-Host "================================
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\test_spatial_hud.ps1 ---
+Add-Type -AssemblyName PresentationFramework
+Add-Type -AssemblyName PresentationCore
+Add-Type -AssemblyName WindowsBase
+
+$scriptContent = Get-Content (Join-Path $PSScriptRoot "SpatialHUD.ps1") -Raw
+
+Write-Host "--- Test 1: PowerShell AST Syntax Validation ---"
+$errors = $null
+[System.Management.Automation.Language.Parser]::ParseInput($scriptContent, [ref]$null, [ref]$errors) | Out-Null
+if ($errors.Count -gt 0) {
+    Write-Error "PowerShell Syntax Errors found: $($errors -join '; ')"
+    exit 1
+}
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\bin\agy-auto.bat ---
+@echo off
+REM Antigravity Autonomous Zero-Dwell Execution Mode
+REM PreToolUse lifecycle hooks continue to enforce Anti-Nuke and sandbox guardrails.
+"C:\Users\jaswa\AppData\Local\agy\bin\agy.exe" --dangerously-skip-permissions %*
+
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\hooks\approval-gate.ps1 ---
+Write-Output '{"decision":"allow"}'
+exit 0
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\hooks\post-tool-use.ps1 ---
+$ErrorActionPreference = 'SilentlyContinue'
+
+$raw = $input | Out-String
+
+try {
+    $SPOOL_DIR = "$HOME\.agy-hud"
+    $SESSIONS_DIR = "$SPOOL_DIR\sessions"
+    if (-not (Test-Path $SESSIONS_DIR)) { New-Item -ItemType Directory -Path $SESSIONS_DIR -Force | Out-Null }
+
+    if ([string]::IsNullOrWhiteSpace($raw)) { Write-Output "{}"; exit 0 }
+
+    $j = $raw | ConvertFrom-Json
+    $conv_id = if ($j.conversationId) { $j.conversationId } else { "default" }
+    $tool = if ($j.toolCall.name) { $j.toolCal
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\hooks\pre-invocation.ps1 ---
+$ErrorActionPreference = 'SilentlyContinue'
+
+$raw = $input | Out-String
+
+try {
+    $SPOOL_DIR = "$HOME\.agy-hud"
+    $SESSIONS_DIR = "$SPOOL_DIR\sessions"
+    if (-not (Test-Path $SESSIONS_DIR)) { New-Item -ItemType Directory -Path $SESSIONS_DIR -Force | Out-Null }
+
+    if ([string]::IsNullOrWhiteSpace($raw)) { Write-Output "{}"; exit 0 }
+
+    $j = $raw | ConvertFrom-Json
+    $conv_id = if ($j.conversationId) { $j.conversationId } else { "default" }
+    $project_path = Get-Location
+    if ($j.wo
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\hooks\stop.ps1 ---
+$ErrorActionPreference = 'SilentlyContinue'
+
+$raw = $input | Out-String
+
+try {
+    $SPOOL_DIR = "$HOME\.agy-hud"
+    $SESSIONS_DIR = "$SPOOL_DIR\sessions"
+    if (-not (Test-Path $SESSIONS_DIR)) { New-Item -ItemType Directory -Path $SESSIONS_DIR -Force | Out-Null }
+
+    if ([string]::IsNullOrWhiteSpace($raw)) { Write-Output "{}"; exit 0 }
+
+    $j = $raw | ConvertFrom-Json
+    $conv_id = if ($j.conversationId) { $j.conversationId } else { "default" }
+
+    $state = [ordered]@{
+        state       
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\hooks\_helpers.ps1 ---
+$SPOOL_DIR     = "$HOME\.agy-hud"
+$SESSIONS_DIR  = "$SPOOL_DIR\sessions"
+$PENDING_DIR   = "$SPOOL_DIR\pending"
+$DECISIONS_DIR = "$SPOOL_DIR\decisions"
+
+foreach ($d in @($SPOOL_DIR, $SESSIONS_DIR, $PENDING_DIR, $DECISIONS_DIR)) {
+    if (-not (Test-Path $d)) {
+        New-Item -ItemType Directory -Path $d -Force -ErrorAction SilentlyContinue | Out-Null
+    }
+}
+
+$utf8NoBom = New-Object System.Text.UTF8Encoding $false
+
+function Write-JsonAtomic([string]$filePath, [string]$content) {
+    try {
+     
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\hacker_toolkit_cli.py ---
+"""
+hacker_toolkit_cli.py - Unified Command Center for Windows 11 Hackers & AI Engineers
+Connects Port Buster, WSL RAM Tamer, Secret Sentinel, Path Bridge, and Ollama Governor.
+"""
+
+from __future__ import annotations
+
+import argparse
+import io
+import json
+import sys
+
+# Windows UTF-8 stdout resilience
+if sys.platform == "win32":
+    if hasattr(sys.stdout, "buffer"):
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    if hasattr(sys.stderr, "buffer"):
+ 
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\ollama_governor.py ---
+"""
+ollama_governor.py - Local LLM Memory Governor & VRAM Manager
+Monitors loaded Ollama models and unloads them on demand to free 10+ GB of system memory.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+import urllib.error
+import urllib.request
+from dataclasses import asdict, dataclass
+from typing import List, Optional
+
+# Windows UTF-8 stdout resilience
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(enco
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\OmniTerminal.ps1 ---
+# ==============================================================================
+# OmniTerminal.ps1 - Universal Project Switcher & Omni-Runner Engine
+# Injected into PowerShell profile for sub-millisecond project switching & batch execution.
+# ==============================================================================
+
+$script:OMNI_SPOOL = "$HOME\.agy-hud"
+$script:OMNI_INDEX = "$script:OMNI_SPOOL\omni_index.json"
+$script:HARVESTER_PY = "C:\Users\jaswa\Antigravity\services\agy-hud\tools\omni_h
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\omni_harvester.py ---
+"""
+omni_harvester.py - Autonomous High-Speed Project & Batch Runner Harvester
+Scans developer workspace roots using in-place directory pruning for sub-50ms execution.
+Discovers active projects, virtual environments, and executable runner scripts (.bat, .cmd, .ps1).
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+import sys
+import time
+from pathlib import Path
+
+# Windows UTF-8 console output guard
+if sys.platform == "win32" and "pytest" not in sys.modules:
+    if hasattr
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\path_bridge.py ---
+"""
+path_bridge.py - Windows <-> WSL2 Smart Path & Line-Ending Bridge
+Bi-directionally translates file paths and sanitizes CRLF/LF line endings between Windows 11 and WSL Linux.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from typing import Optional
+
+# Windows UTF-8 stdout resilience
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfi
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\port_buster.py ---
+"""
+port_buster.py - Developer Port Collision Ghost Buster for Windows
+Finds and terminates orphaned/zombie processes locking developer ports (3000, 8000, 5000, 8080, etc.)
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+from dataclasses import asdict, dataclass
+from typing import List, Optional
+
+# Windows UTF-8 stdout resilience
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.rec
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\secret_sentinel.py ---
+"""
+secret_sentinel.py - Clipboard & Dev Text Secret Leak Sentinel
+Detects, masks, and protects exposed API keys, tokens, and private keys on Windows 11.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from dataclasses import asdict, dataclass
+from typing import List, Optional
+
+# Windows UTF-8 stdout resilience
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+  
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\spatial_telemetry_daemon.py ---
+"""
+spatial_telemetry_daemon.py - Background High-Speed Telemetry Daemon for Spatial HUD
+Samples system state, dev ports, WSL2 RAM, Ollama models, and proxy status.
+Writes atomic state to ~/.agy-hud/telemetry.json and executes incoming command triggers.
+"""
+
+from __future__ import annotations
+
+import io
+import json
+import os
+import sys
+import time
+from pathlib import Path
+from typing import Any, Dict
+
+# Windows UTF-8 stdout resilience (only if not under pytest capture)
+if sys.platform == "win32"
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\wsl_ram_tamer.py ---
+"""
+wsl_ram_tamer.py - WSL2 vmmem RAM Vampire Tamer & Memory Trimmer for Windows 11
+Frees cached Linux RAM held by vmmemWSL and trims Windows working sets.
+"""
+
+from __future__ import annotations
+
+import argparse
+import ctypes
+import json
+import os
+import subprocess
+import sys
+import time
+from dataclasses import asdict, dataclass
+from typing import Dict, List, Optional
+
+# Windows UTF-8 stdout resilience
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdou
+
+--- C:\Users\jaswa\Antigravity\services\agy-hud\tools\__init__.py ---
+"""
+Hacker & AI Engineer Productivity Tools for Antigravity HUD
+"""
+
+__version__ = "1.0.0"
+
+Found candidate hook file: C:\Users\jaswa\Antigravity\.agents\hooks.json

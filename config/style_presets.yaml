@@ -1,0 +1,42 @@
+# AI Novel Engine: Style Presets & Gardner Continuum
+# Author: Jaswanth1902
+
+gardner_continuum:
+  D1_Cinematic:
+    description: "Camera pulled completely back. Objective historical panorama or battlefield overview."
+    syntax: "Simple, declarative, macro-scale nouns."
+    example: "The regiment stood along the ridge beneath a slate sky."
+  D2_Sensory_Immediate:
+    description: "Close physical proximity. Abrasive tactile, olfactory, and acoustic ground-truth."
+    syntax: "Concrete sensory verbs, specific materials (pitch, limestone, cold iron, mutton tallow)."
+    example: "The iron buckle bit into his hip as he dropped into the wet shale."
+  D3_Psychological_Close:
+    description: "Close third-person limited. Thought filtered through character perspective without filter tags."
+    syntax: "Free Indirect Discourse. Internal calculation embedded in physical observation."
+    example: "Two paces to the left would put his back to the kiln wall. No retreat."
+  D4_Visceral_Internal:
+    description: "Deep somatic embodiment. Autonomic nervous responses, adrenaline, meridian stress."
+    syntax: "Staccato fragments, physiological resonance, sensory overwhelm."
+    example: "Air burning in the throat. The pulse in the ears drumming thirty cycles too fast."
+  D5_Metaphysical_Threshold:
+    description: "Constraint collapse, cosmic realization, or near-death transcendence."
+    syntax: "Philosophical axioms rendered through rigorous physical laws."
+    example: "The boundary dissolved. Motion was not elemental; it was equilibrium."
+
+pacing_profiles:
+  kinetic_assault:
+    avg_sentence_length: 8-14
+    cadence: "Staccato, percussive action beats"
+    sensory_focus: "Auditory impacts, kinetic momentum, thermal burns, fractured stone"
+  atmospheric_suspense:
+    avg_sentence_length: 14-22
+    cadence: "Measured, rhythmic, creeping dread"
+    sensory_focus: "Olfactory decay, acoustic voids, damp textures, shadow play"
+  domestic_camaraderie:
+    avg_sentence_length: 12-18
+    cadence: "Warm, fluid, overlapping dialogue"
+    sensory_focus: "Toasted rye, simmering broth, weapon grease, wood smoke"
+  tactical_deliberation:
+    avg_sentence_length: 10-16
+    cadence: "Clinical, precise, cartographic"
+    sensory_focus: "Vellum texture, iron compass points, elevation lines"
